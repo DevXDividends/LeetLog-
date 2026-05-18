@@ -1,2 +1,5 @@
 streamlit 
 PyGithub 
+ipykernel
+jupyter
+python-dotenv
