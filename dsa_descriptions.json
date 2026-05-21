@@ -832,7 +832,31 @@
   "Min Stack.cpp": {
     "title": "Min Stack",
     "source": "LeetCode #155",
-    "description": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. Implement the MinStack class with all operations running in O(1) time."
+    "description": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time. Implement the MinStack class with all operations running in O(1) time.",
+     "examples": [
+    {
+      "input": [
+        "MinStack minStack = new MinStack();",
+        "minStack.push(-2);",
+        "minStack.push(0);",
+        "minStack.push(-3);",
+        "minStack.getMin();",
+        "minStack.pop();",
+        "minStack.top();",
+        "minStack.getMin();"
+      ],
+      "output": [
+        "null",
+        "null",
+        "null",
+        "-3",
+        "null",
+        "0",
+        "-2"
+      ],
+      "explanation": "After pushing -2, 0, and -3, the minimum element is -3. After popping -3, the top element becomes 0 and the minimum becomes -2."
+    }
+  ]
   },
 
   "N-ary Tree Postorder Traversal.cpp": {

@@ -18,14 +18,17 @@ data = load_data()
 def get_problem_metadata(des,problem):
     if problem in des:
         return{
-            "title": des[problem]["title"],
-            "source":des[problem]["source"],
-            "description":des[problem]["description"],
-            "examples":des[problem]["examples"]
+            "title": des[problem].get("title","Unknown title"),
+            "source":des[problem].get("source",'Unknown source'),
+            "description":des[problem].get("description","No Description Available"),
+            "examples":des[problem].get("examples",[])
         }
     else:
         return {
-            "title": "No data Found !"
+            "title": "No Data Found!",
+            "source": "",
+            "description": "",
+            "examples": []
         }
     
 st.sidebar.title("📂 LeetLog Archive")
