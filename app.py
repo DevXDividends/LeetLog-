@@ -63,19 +63,34 @@ if selected_category and selected_file:
     st.write(des_data["description"])
     st.subheader("Examples")
 
-    for idx, ex in enumerate(des_data["examples"], start=1):
-     with st.container(border=True):
+    examples = des_data.get("examples", [])
 
-        st.markdown(f"### Example {idx}")
+    if examples:
 
-        st.markdown("#### Input")
-        st.code(ex["input"], language="cpp")
+        st.subheader("Examples")
 
-        st.markdown("#### Output")
-        st.code(ex["output"], language="cpp")
+        for idx, ex in enumerate(examples, start=1):
 
-        st.markdown("#### Explanation")
-        st.write(ex["explanation"])
+         if isinstance(ex, dict):
+
+            with st.container(border=True):
+
+                st.markdown(f"### Example {idx}")
+
+                st.markdown("#### Input")
+                st.code(ex.get("input", "No Input"), language="cpp")
+
+                st.markdown("#### Output")
+                st.code(ex.get("output", "No Output"), language="cpp")
+
+                explanation = ex.get("explanation")
+
+                if explanation:
+                    st.markdown("#### Explanation")
+                    st.write(explanation)
+
+    else:
+        st.info("No examples available.")
 
     code_content = data[selected_category][selected_file]
     st.code(code_content,language="cpp")
