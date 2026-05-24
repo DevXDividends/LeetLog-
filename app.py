@@ -21,14 +21,16 @@ def get_problem_metadata(des,problem):
             "title": des[problem].get("title","Unknown title"),
             "source":des[problem].get("source",'Unknown source'),
             "description":des[problem].get("description","No Description Available"),
-            "examples":des[problem].get("examples",[])
+            "examples":des[problem].get("examples",[]),
+            "link":des[problem].get("link","#")
         }
     else:
         return {
             "title": "No Data Found!",
             "source": "",
             "description": "",
-            "examples": []
+            "examples": [],
+            "link":"#"
         }
     
 st.sidebar.title("📂 LeetLog Archive")
@@ -57,7 +59,16 @@ if selected_category and selected_file:
     st.title(des_data["title"].replace(".cpp",""))
 
     st.caption(f"Category: {selected_category}")
-    st.write(f"Source: {des_data["source"]}")
+
+    st.markdown(
+    f"""
+    <a href="{des_data["link"]}" target="_blank"
+    style="text-decoration:none; color:white;">
+    Source: {des_data["source"]}
+    </a>
+    """,
+    unsafe_allow_html=True
+)
     st.subheader("Description")
 
     st.write(des_data["description"])
