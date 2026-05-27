@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
-![GitHub API](https://img.shields.io/badge/PyGitHub-181717?logo=github&logoColor=white)
+![PyGitHub](https://img.shields.io/badge/PyGitHub-181717?logo=github&logoColor=white&labelColor=181717&color=24292e)
 
 A dynamic, automated web application that bridges my GitHub Data Structures and Algorithms (DSA) repository with a clean, readable frontend interface. 
 
