@@ -1504,5 +1504,22 @@
         "output": "4"
       }
     ]
+  },
+  "Maximal Rectangle.cpp": {
+    "title": "Maximal Rectangle",
+    "source": "LeetCode #85",
+    "link": "https://leetcode.com/problems/maximal-rectangle/description/",
+    "description": "Given a rows x cols binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.",
+    "examples": [
+      {
+        "input": "matrix = [[1,0,1,0,0],\n[1,0,1,1,1],\n[1,1,1,1,1],\n[1,0,0,1,0]]",
+        "output": "10",
+        "explanation": "The maximal rectangle is shown in the above picture."
+      },
+      {
+        "input": "matrix = [[0]]",
+        "output": "0"
+      }
+    ]
   }
 }
