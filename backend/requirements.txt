@@ -3,3 +3,5 @@ PyGithub
 ipykernel
 jupyter
 python-dotenv
+fastapi 
+uvicorn
