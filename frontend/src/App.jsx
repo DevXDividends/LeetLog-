@@ -173,7 +173,7 @@ function ProblemExamples({ examples }) {
     <div className="mb-12">
       <h2 className="text-4xl font-bold mb-6">Examples</h2>
 
-      {examples.map((item, index) => (
+      {examples?.map((item, index) => (
         <div
           key={index}
           className="border border-gray-700 rounded-xl p-6 bg-[#0E1117] mb-6 "
