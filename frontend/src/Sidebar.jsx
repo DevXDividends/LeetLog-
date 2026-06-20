@@ -1,5 +1,6 @@
 import ProblemList from "./ProblemList";
 import dsa_data from "./data/dsa_data.json";
+import { GiArchiveResearch } from "react-icons/gi";
 
 function Sidebar({
   collapsed,
@@ -15,7 +16,7 @@ function Sidebar({
     >
       <div className="flex justify-between items-center px-6 mb-6">
         <label className="text-white text-xl font-semibold tracking-wide whitespace-nowrap flex items-center gap-3">
-          <span className="text-2xl">📂</span> LeetLog Archive
+          <span className="text-2xl">{<GiArchiveResearch/>}</span> LeetLog Archive
         </label>
       </div>
 

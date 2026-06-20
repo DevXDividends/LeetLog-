@@ -4,6 +4,7 @@ import description from "./data/dsa_descriptions.json";
 import Sidebar from "./Sidebar.jsx"
 import MainPage from "./MainPage.jsx";
 
+
 function App() {
   const topics  = Object.keys(dsa_data);
   const firstTopic = topics[0];

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { FiCopy } from "react-icons/fi";
+import { TiTick  } from "react-icons/ti";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
 
@@ -31,7 +32,7 @@ function Code({ code }) {
           onClick={copyToClipboard}
           className="absolute top-3 right-3 z-10 p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 transition-all "
         >
-          {copied ? "Copied !" : <FiCopy />}
+          {copied ? <TiTick/> : <FiCopy />}
         </button>
 
         <SyntaxHighlighter
