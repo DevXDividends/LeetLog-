@@ -5,7 +5,8 @@ import Sidebar from "./Sidebar.jsx"
 import MainPage from "./MainPage.jsx";
 
 function App() {
-  const firstTopic = Object.keys(dsa_data)[0];
+  const topics  = Object.keys(dsa_data);
+  const firstTopic = topics[0];
   const firstProblem = Object.keys(dsa_data[firstTopic])[0];
 
   const [selectedTopic, setSelectedTopic] = useState(Object.keys(dsa_data)[0]);
@@ -37,6 +38,7 @@ function App() {
         setProblem={setProblem}
         setSelectedTopic={setSelectedTopic}
         selectedTopic={selectedTopic}
+        topics = {topics}
       />
       <MainPage
         collapsed={collapsed}

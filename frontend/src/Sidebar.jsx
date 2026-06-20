@@ -1,8 +1,13 @@
 import ProblemList from "./ProblemList";
-import dsa_data from "./data/dsa_data.json"
+import dsa_data from "./data/dsa_data.json";
 
-function Sidebar({ collapsed, setProblem, setSelectedTopic, selectedTopic }) {
-  const topics = Object.keys(dsa_data);
+function Sidebar({
+  collapsed,
+  setProblem,
+  setSelectedTopic,
+  selectedTopic,
+  topics,
+}) {
   return (
     <div
       className={`h-screen w-[320px] bg-[#262730] border-r border-gray-700 flex flex-col py-6 font-sans fixed top-0 left-0 transition-transform    duration-300
