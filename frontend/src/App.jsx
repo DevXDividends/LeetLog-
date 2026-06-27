@@ -49,8 +49,6 @@ function App() {
           setIsLoading(false);
         }, 1000);
       } catch (err) {
-        console.log(err);
-        console.log(err.message);
         setError(err);
         setIsLoading(false);
       }
@@ -72,8 +70,6 @@ function App() {
           setAllProblems(data);
           setSelectedProblem(data[0]);
         } catch (err) {
-          console.log(err);
-          console.log(err.message);
           setError(err);
         }
       }
@@ -94,8 +90,6 @@ function App() {
           setError(null);
           setProblemData(data);
         } catch (err) {
-          console.log(err);
-          console.log(err.message);
           setError(err);
           setProblemData(null);
         }
