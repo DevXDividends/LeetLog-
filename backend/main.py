@@ -4,7 +4,7 @@ import json
 from fastapi.exceptions import HTTPException
 
 app = FastAPI()
-origins = ["http://localhost:5173"]
+origins = ["http://localhost:5173", "http://localhost"]
 
 app.add_middleware(
    CORSMiddleware,
