@@ -1,13 +1,14 @@
+import { useEffect } from "react";
 import ProblemList from "./ProblemList";
-import dsa_data from "./data/dsa_data.json";
 import { GiArchiveResearch } from "react-icons/gi";
 
 function Sidebar({
   collapsed,
-  setProblem,
-  setSelectedTopic,
+  AllTopics,
   selectedTopic,
-  topics,
+  setSelectedTopic,
+  AllProblems,
+  setSelectedProblem
 }) {
   return (
     <div
@@ -16,7 +17,8 @@ function Sidebar({
     >
       <div className="flex justify-between items-center px-6 mb-6">
         <label className="text-white text-xl font-semibold tracking-wide whitespace-nowrap flex items-center gap-3">
-          <span className="text-2xl">{<GiArchiveResearch/>}</span> LeetLog Archive
+          <span className="text-2xl">{<GiArchiveResearch />}</span> LeetLog
+          Archive
         </label>
       </div>
 
@@ -32,8 +34,7 @@ function Sidebar({
           onChange={(e) => setSelectedTopic(e.target.value)}
           className="w-full bg-[#0E1117] text-white text-sm py-2 px-3 rounded-md border border-gray-600 focus:outline-none focus:border-gray-400 cursor-pointer"
         >
-          {/* {console.log(selectedTopic)} */}
-          {topics.map((item) => (
+          {AllTopics.map((item) => (
             <option key={item} value={item}>
               {item}
             </option>
@@ -41,10 +42,10 @@ function Sidebar({
         </select>
       </div>
 
-      <ProblemList
-        selectedTopic={dsa_data[selectedTopic]}
-        setProblem={setProblem}
-      />
+    <ProblemList
+     AllProblems={AllProblems}
+     setSelectedProblem={setSelectedProblem}
+    />
     </div>
   );
 }
