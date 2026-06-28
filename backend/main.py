@@ -25,6 +25,12 @@ def load_description():
 data = load_data()
 description = load_description()
 
+@app.get("/Health")
+def Health():
+    return {
+        "status":"ok",
+        "message":"LeetLog backend is Running 👍"
+        }
 @app.get("/topics")
 def topics():
     return list(data.keys())
