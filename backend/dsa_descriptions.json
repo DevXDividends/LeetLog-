@@ -4,6 +4,12 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/aggressive-cows/0",
     "description": "You are given an array stalls[] of unique integers denoting the positions of stalls. You are also given an integer k which denotes the number of aggressive cows. Assign stalls to k cows such that the minimum distance between any two of them is the maximum possible.",
+    "constraints": [
+      "2 ≤ arr.size() ≤ 10^6",
+      "0 ≤ arr[i] ≤ 10^8",
+      "2 ≤ k ≤ arr.size()"
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "stalls[] = [1, 2, 4, 8, 9], k = 3",
@@ -22,6 +28,11 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
     "description": "Given an array arr[] where arr[i] represents the number of pages in the i-th book, and k students. Allocate books to k students such that: (1) Each student gets at least one book, (2) Each book is allocated to exactly one student, (3) Books are allocated contiguously. Minimize the maximum number of pages assigned to any student. Return -1 if allocation is not possible.",
+    "constraints": [
+      "1 ≤ arr.size() ≤ 10^6",
+      "1 ≤ arr[i], k ≤ 10^3"
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "arr[] = [12, 34, 67, 90], k = 2",
@@ -40,6 +51,11 @@
     "source": "LeetCode #315",
     "link": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
     "description": "Given an integer array nums, return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i].",
+    "constraints": [
+      "-10^4 <= nums[i] <= 10^4",
+      "-10^4 <= nums[i] <= 10^4"
+    ],
+    "difficulty": "Hard",
     "examples": [
       {
         "input": "nums = [5, 2, 6, 1]",
@@ -53,6 +69,14 @@
     "source": "LeetCode #744",
     "link": "https://leetcode.com/problems/find-smallest-letter-greater-than-target/",
     "description": "Given a characters array letters that is sorted in non-decreasing order and a character target, return the smallest character in the array that is larger than target. The letters wrap around, so if target is greater than or equal to the last character, return the first character.",
+    "constraints": [
+      "2 <= letters.length <= 10^4",
+      "letters[i] is a lowercase English letter.",
+      "letters is sorted in non-decreasing order.",
+      "letters contains at least two different characters.",
+      "target is a lowercase English letter."
+    ],
+    "difficulty": "Easy",
     "examples": [
       {
         "input": "letters = ['c','f','j'], target = 'a'",
@@ -71,6 +95,14 @@
     "source": "LeetCode #1901",
     "link": "https://leetcode.com/problems/find-a-peak-element-ii/",
     "description": "A peak element in a 2D grid is an element that is strictly greater than all of its adjacent neighbors to the left, right, top, and bottom. Given a 0-indexed m x n matrix mat where no two adjacent cells are equal, find any peak element and return its position as [row, col]. You must solve it in O(m log n) or O(n log m) time.",
+    "constraints": [
+      "m == mat.length",
+      "n == mat[i].length",
+      "1 <= m, n <= 500",
+      "1 <= mat[i][j] <= 10^5",
+      "No two adjacent cells are equal."
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "mat = [[1,4],[3,2]]",
@@ -89,6 +121,13 @@
     "source": "LeetCode #287",
     "link": "https://leetcode.com/problems/find-the-duplicate-number/",
     "description": "Given an array nums containing n + 1 integers where each integer is in the range [1, n] inclusive, there is only one repeated number. Return the duplicate number without modifying the array and using only O(1) extra space.",
+    "constraints": [
+      "1 <= n <= 10^5",
+      "nums.length == n + 1",
+      "1 <= nums[i] <= n",
+      "All the integers in nums appear only once except for precisely one integer which appears two or more times."
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "nums = [1, 3, 4, 2, 2]",
@@ -105,6 +144,13 @@
     "source": "LeetCode #154",
     "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
     "description": "Given a sorted array of n integers that has been rotated an unknown number of times (may contain duplicates), return the minimum element of this array.",
+    "constraints": [
+      "n == nums.length",
+      "1 <= n <= 5000",
+      "-5000 <= nums[i] <= 5000",
+      "nums is sorted and rotated between 1 and n times."
+    ],
+    "difficulty": "Hard",
     "examples": [
       {
         "input": "nums = [1, 3, 5]",
@@ -121,6 +167,11 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1",
     "description": "Given a sorted array arr[] and a number x, find the first and last occurrences of x in the array. Return [-1, -1] if x is not present.",
+    "constraints": [
+      "1 ≤ arr.size() ≤ 10^6",
+      "1 ≤ arr[i], x ≤ 10^9"
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "arr[] = [1, 1, 2, 2, 3], x = 2",
@@ -138,6 +189,10 @@
     "title": "First Bad Version",
     "source": "LeetCode #278",
     "link": "https://leetcode.com/problems/first-bad-version/",
+    "constraints": [
+      "1 <= bad <= n <= 231 - 1"
+    ],
+    "difficulty": "Easy",
     "description": "You are a product manager with n versions [1, 2, ..., n]. An API bool isBadVersion(version) returns whether a version is bad. All versions after the first bad version are also bad. Find the first bad version. Minimize the number of calls to the API.",
     "examples": [
       {
@@ -151,6 +206,13 @@
     "title": "H-Index II",
     "source": "LeetCode #275",
     "link": "https://leetcode.com/problems/h-index-ii/",
+    "constraints": [
+      "n == citations.length",
+      "1 <= n <= 10^5",
+      "0 <= citations[i] <= 1000",
+      "citations is sorted in ascending order."
+    ],
+    "difficulty": "Medium",
     "description": "Given an array of integers citations where citations[i] is the number of citations a researcher received for their i-th paper (sorted in ascending order), return the researcher's h-index. The h-index is defined as the maximum h such that the researcher has at least h papers with at least h citations each.",
     "examples": [
       {
@@ -168,6 +230,11 @@
     "title": "Heaters",
     "source": "LeetCode #475",
     "link": "https://leetcode.com/problems/heaters/",
+    "constraints": [
+      "1 <= houses.length, heaters.length <= 3 * 10^4",
+      "1 <= houses[i], heaters[i] <= 10^9"
+    ],
+    "difficulty": "Medium",
     "description": "Winter is coming! Given positions of houses and heaters on a horizontal line, find the minimum radius of heaters such that all houses can be warmed. Every heater can warm houses within radius r on both sides.",
     "examples": [
       {
@@ -186,6 +253,11 @@
     "title": "Intersection of Two Arrays",
     "source": "LeetCode #349",
     "link": "https://leetcode.com/problems/intersection-of-two-arrays/",
+    "constraints": [
+      "1 <= nums1.length, nums2.length <= 1000",
+      "0 <= nums1[i], nums2[i] <= 1000"
+    ],
+    "difficulty": "Easy",
     "description": "Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.",
     "examples": [
       {
@@ -202,6 +274,11 @@
     "title": "K-diff Pairs in an Array",
     "source": "LeetCode #532",
     "link": "https://leetcode.com/problems/k-diff-pairs-in-an-array/",
+    "constraints": [
+      "1 <= nums.length <= 10^4",
+      "-10^7 <= nums[i] <= 10^7"
+    ],
+    "difficulty": "Medium",
     "description": "Given an array of integers nums and an integer k, return the number of unique k-diff pairs in the array. A k-diff pair is an integer pair (nums[i], nums[j]) where |nums[i] - nums[j]| == k and i != j.",
     "examples": [
       {
@@ -220,6 +297,12 @@
     "title": "K-th Element of Two Sorted Arrays",
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1",
+    "constraints": [
+      "1 ≤ a.size(), b.size() ≤ 10^6",
+      "1 ≤ k ≤ a.size() + b.size()",
+      "0 ≤ a[i], b[i] ≤ 10^8"
+    ],
+    "difficulty": "Medium",
     "description": "Given two sorted arrays a[] and b[] and an integer k, find the k-th element in the combined sorted array formed by merging both arrays.",
     "examples": [
       {
@@ -239,6 +322,14 @@
     "source": "LeetCode #378",
     "link": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
     "description": "Given an n x n matrix where each row and column is sorted in ascending order, return the k-th smallest element in the matrix. Note that it is the k-th smallest element in the sorted order, not the k-th distinct element.",
+    "constraints": [
+      "n == matrix.length == matrix[i].length",
+      "1 <= n <= 300",
+      "-10^9 <= matrix[i][j] <= 10^9",
+      "All the rows and columns of matrix are guaranteed to be sorted in non-decreasing order.",
+      "1 <= k <= n^2"
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "matrix = [[1,5,9],[10,11,13],[12,13,15]], k = 8",
@@ -253,6 +344,13 @@
   "Kth Smallest Product of Two Sorted Arrays.cpp": {
     "title": "Kth Smallest Product of Two Sorted Arrays",
     "source": "LeetCode #2040",
+    "constraints": [
+      "1 <= nums1.length, nums2.length <= 5 * 10^4",
+      "-10^5 <= nums1[i], nums2[j] <= 10^5",
+      "1 <= k <= nums1.length * nums2.length",
+      "nums1 and nums2 are sorted."
+    ],
+    "difficulty": "Hard",
     "link": "https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/",
     "description": "Given two sorted 0-indexed integer arrays nums1 and nums2 and an integer k, return the k-th (1-indexed) smallest product of nums1[i] * nums2[j] where 0 <= i < nums1.length and 0 <= j < nums2.length.",
     "examples": [
@@ -272,6 +370,13 @@
     "source": "LeetCode #1539",
     "link": "https://leetcode.com/problems/kth-missing-positive-number/",
     "description": "Given an array arr of positive integers sorted in strictly increasing order and an integer k, return the k-th positive integer that is missing from this array.",
+    "constraints": [
+      "1 <= arr.length <= 1000",
+      "1 <= arr[i] <= 1000",
+      "1 <= k <= 1000",
+      "arr[i] < arr[j] for 1 <= i < j <= arr.length"
+    ],
+    "difficulty": "Easy",
     "examples": [
       {
         "input": "arr = [2, 3, 4, 7, 11], k = 5",
@@ -290,6 +395,11 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1",
     "description": "Given a row-wise sorted matrix mat[][] of size r x c where r and c are always odd, find the median of the matrix. The overall matrix may not be sorted.",
+    "constraints": [
+      "1 ≤ n, m ≤ 400",
+      "1 ≤ mat[i][j] ≤ 2000"
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "mat = [[1,3,5],[2,6,9],[3,6,9]]",
@@ -303,6 +413,15 @@
     "source": "LeetCode #4",
     "link": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
     "description": "Given two sorted arrays nums1 and nums2 of sizes m and n, return the median of the two sorted arrays. The overall run time complexity should be O(log(m+n)).",
+    "constraints": [
+      "nums1.length == m",
+      "nums2.length == n",
+      "0 <= m <= 1000",
+      "0 <= n <= 1000",
+      "1 <= m + n <= 2000",
+      "1 <= m + n <= 2000"
+    ],
+    "difficulty": "Hard",
     "examples": [
       {
         "input": "nums1 = [1, 3], nums2 = [2]",
@@ -321,6 +440,12 @@
     "source": "GFG / LeetCode #774",
     "link": "https://www.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/1",
     "description": "You are given a sorted array stations[] of positions of gas stations on the X-axis and an integer k. You can add k new gas stations anywhere on the X-axis. Return the minimum possible value of the maximum distance between any two adjacent gas stations after adding k stations.",
+    "constraints": [
+      "1 ≤ stations.size() ≤ 10^5",
+      "0 ≤ stations[i] ≤ 10^6",
+      "0 ≤ k ≤ 10^5"
+    ],
+    "difficulty": "Hard",
     "examples": [
       {
         "input": "stations = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], k = 9",
@@ -334,6 +459,12 @@
     "source": "LeetCode #209",
     "link": "https://leetcode.com/problems/minimum-size-subarray-sum/",
     "description": "Given an array of positive integers nums and a positive integer target, return the minimal length of a contiguous subarray whose sum is greater than or equal to target. If no such subarray exists, return 0.",
+    "constraints": [
+      "1 <= target <= 10^9",
+      "1 <= nums.length <= 10^5",
+      "1 <= nums[i] <= 10^4"
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "target = 7, nums = [2, 3, 1, 2, 4, 3]",
@@ -352,6 +483,10 @@
     "source": "LeetCode #292",
     "link": "https://leetcode.com/problems/nim-game/",
     "description": "You are playing Nim with a friend. There is a heap of n stones. You take turns, and each player can remove 1, 2, or 3 stones on their turn. The player who removes the last stone wins. Given n stones, determine if you can win assuming both players play optimally.",
+    "constraints": [
+      "1 <= n <= 231 - 1"
+    ],
+    "difficulty": "Easy",
     "examples": [
       {
         "input": "n = 4",
@@ -369,6 +504,13 @@
     "source": "LeetCode #2643 / GFG",
     "link": "https://leetcode.com/problems/row-with-maximum-ones/",
     "description": "Given a 0-indexed m x n binary matrix mat, return the 0-indexed position of the row that contains the maximum count of ones. If there are multiple rows that have the maximum count of ones, the row with the smaller index should be selected.",
+    "constraints": [
+      "m == mat.length ",
+      "n == mat[i].length ",
+      "1 <= m, n <= 100",
+      "mat[i][j] is either 0 or 1."
+    ],
+    "difficulty": "Easy",
     "examples": [
       {
         "input": "mat = [[0,1],[1,0]]",
@@ -387,6 +529,13 @@
     "source": "LeetCode #74",
     "link": "https://leetcode.com/problems/search-a-2d-matrix/",
     "description": "Given an m x n integer matrix where each row is sorted in non-decreasing order and the first integer of each row is greater than the last integer of the previous row, determine if target exists in the matrix. Must run in O(log(m * n)) time.",
+    "constraints": [
+      "m == matrix.length",
+      "n == matrix[i].length",
+      "1 <= m, n <= 100",
+      "-10^4 <= matrix[i][j], target <= 10^4"
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": "matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3",
@@ -403,6 +552,13 @@
     "source": "LeetCode #35",
     "link": "https://leetcode.com/problems/search-insert-position/",
     "description": "Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be inserted in order. Must run in O(log n) time.",
+    "constraints": [
+      "1 <= nums.length <= 10^4",
+      "-10^4 <= nums[i] <= 10^4",
+      "nums contains distinct values sorted in ascending order.",
+      "-10^4 <= target <= 10^4"
+    ],
+    "difficulty": "Easy",
     "examples": [
       {
         "input": "nums = [1, 3, 5, 6], target = 5",
@@ -423,6 +579,12 @@
     "source": "LeetCode #410",
     "link": "https://leetcode.com/problems/split-array-largest-sum/",
     "description": "Given an integer array nums and an integer k, split nums into k non-empty subarrays such that the largest sum among subarrays is minimized. Return that minimized largest sum.",
+    "constraints": [
+      "1 <= nums.length <= 1000",
+      "0 <= nums[i] <= 10^6",
+      "1 <= k <= min(50, nums.length)"
+    ],
+    "difficulty": "Hard",
     "examples": [
       {
         "input": "nums = [7, 2, 5, 10, 8], k = 2",
@@ -440,6 +602,10 @@
     "source": "LeetCode #69",
     "link": "https://leetcode.com/problems/sqrtx/",
     "description": "Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative. Do not use any built-in exponent function or operator.",
+    "constraints": [
+      "0 <= x <= 231 - 1"
+    ],
+    "difficulty": "Easy",
     "examples": [
       {
         "input": "x = 4",
@@ -456,85 +622,165 @@
     "title": "Add Number Linked Lists",
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1",
-    "description": "Given two numbers represented as linked lists, where each node contains a single digit. The digits are stored in order from the most significant to the least significant. Return the sum as a linked list in the same format."
+    "description": "Given two numbers represented as linked lists, where each node contains a single digit. The digits are stored in order from the most significant to the least significant. Return the sum as a linked list in the same format.",
+    "constraints": [
+      "1 ≤ Number of nodes in head1, head2 ≤ 10^5",
+      "0 ≤ node->data ≤ 9"
+    ],
+    "difficulty": "Medium"
   },
   "Add one to a linked list number.cpp": {
     "title": "Add One to a Number Represented as Linked List",
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1",
-    "description": "Given a non-negative number represented as a linked list of digits (most significant digit first), add 1 to the number and return the resulting linked list."
+    "description": "Given a non-negative number represented as a linked list of digits (most significant digit first), add 1 to the number and return the resulting linked list.",
+    "constraints": [
+      "1 ≤ len(list) ≤ 10",
+      "0 ≤ list[i] ≤ 9"
+    ],
+    "difficulty": "Medium"
   },
   "Convert Binary Number in a Linked List to Integer.cpp": {
     "title": "Convert Binary Number in a Linked List to Integer",
     "source": "LeetCode #1290",
     "link": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
-    "description": "Given head of a linked list which is a representation of a binary number (most significant bit first), return the decimal value of the number in the linked list."
+    "description": "Given head of a linked list which is a representation of a binary number (most significant bit first), return the decimal value of the number in the linked list.",
+    "constraints": [
+      "The Linked List is not empty.",
+      "Number of nodes will not exceed 30.",
+      "Each node's value is either 0 or 1."
+    ],
+    "difficulty": "Easy"
   },
   "Copy List with Random Pointer.cpp": {
     "title": "Copy List with Random Pointer",
     "source": "LeetCode #138",
     "link": "https://leetcode.com/problems/copy-list-with-random-pointer/",
-    "description": "A linked list of length n is given where each node has an additional random pointer, which could point to any node in the list or null. Construct a deep copy of the list. The deep copy should consist of exactly n brand new nodes, where each new node's value is set to the value of its corresponding original node. Both the next and random pointers should point to new nodes in the copied list."
+    "description": "A linked list of length n is given where each node has an additional random pointer, which could point to any node in the list or null. Construct a deep copy of the list. The deep copy should consist of exactly n brand new nodes, where each new node's value is set to the value of its corresponding original node. Both the next and random pointers should point to new nodes in the copied list.",
+    "constraints": [
+      "0 <= n <= 1000",
+      "-10^4 <= Node.val <= 10^4",
+      "Node.random is null or is pointing to some node in the linked list."
+    ],
+    "difficulty": "Medium"
   },
   "Delete N nodes after M nodes of a linked list.cpp": {
     "title": "Delete N Nodes After M Nodes of a Linked List",
     "source": "GFG / LeetCode #1474",
     "link": "https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/",
-    "description": "Given a linked list and two integers m and n, traverse the linked list such that you retain the first m nodes and delete the next n nodes. Continue this pattern until you reach the end of the list."
+    "description": "Given a linked list and two integers m and n, traverse the linked list such that you retain the first m nodes and delete the next n nodes. Continue this pattern until you reach the end of the list.",
+    "constraints": [
+      "1 <= size of linked list <= 1000",
+      "0 < n, m <= size of linked list"
+    ],
+    "difficulty": "Easy"
   },
   "Double a Number Represented as a Linked List.cpp": {
     "title": "Double a Number Represented as a Linked List",
     "source": "LeetCode #2816",
     "link": "https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/",
-    "description": "Given the head of a non-empty linked list representing a non-negative integer without leading zeros, return the head of the linked list representing the integer doubled."
+    "description": "Given the head of a non-empty linked list representing a non-negative integer without leading zeros, return the head of the linked list representing the integer doubled.",
+    "constraints": [
+      "The number of nodes in the list is in the range [1, 10^4]",
+      "0 <= Node.val <= 9",
+      "The input is generated such that the list represents a number that does not have leading zeros, except the number 0 itself."
+    ],
+    "difficulty": "Medium"
   },
   "Find k th node in Linked list.cpp": {
     "title": "Find the Fractional (k-th) Node in a Linked List",
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/find-the-fractional-part-of-a-number3636/1",
-    "description": "Given a singly linked list and an integer k, find the value of the node at position floor(n/k), where n is the total number of nodes."
+    "description": "Given a singly linked list and an integer k, find the value of the node at position floor(n/k), where n is the total number of nodes.",
+    "constraints": [],
+    "difficulty": "Medium"
   },
   "Find length of Loop.cpp": {
     "title": "Find Length of Loop in Linked List",
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/find-length-of-loop/1",
-    "description": "Given the head of a linked list, determine if there is a loop. If a loop exists, return the length of the loop; otherwise, return 0."
+    "description": "Given the head of a linked list, determine if there is a loop. If a loop exists, return the length of the loop; otherwise, return 0.",
+    "constraints": [
+      "1 ≤ number of nodes ≤ 10^5",
+      "1 ≤ node->data ≤ 10^4",
+      "0 ≤ pos < number of nodes"
+    ],
+    "difficulty": "Medium"
   },
   "Flatten Binary Tree to Linked List.cpp": {
     "title": "Flatten Binary Tree to Linked List",
     "source": "LeetCode #114",
     "link": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
-    "description": "Given the root of a binary tree, flatten the tree into a linked list in-place. The linked list should use the same TreeNode class where right pointer points to the next node, and all left pointers are null. The order should be the same as a pre-order traversal."
+    "description": "Given the root of a binary tree, flatten the tree into a linked list in-place. The linked list should use the same TreeNode class where right pointer points to the next node, and all left pointers are null. The order should be the same as a pre-order traversal.",
+    "constraints": [
+      "The number of nodes in the tree is in the range [0, 2000].",
+      "-100 <= Node.val <= 100"
+    ],
+    "difficulty": "Medium"
   },
   "Flattening a Linked List.cpp": {
     "title": "Flattening a Linked List",
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1",
-    "description": "Given a linked list where each node has a next pointer and a bottom pointer. The bottom pointer points to a sub-linked list which is also sorted. Flatten the entire list so that all nodes appear in a single level, sorted order."
+    "description": "Given a linked list where each node has a next pointer and a bottom pointer. The bottom pointer points to a sub-linked list which is also sorted. Flatten the entire list so that all nodes appear in a single level, sorted order.",
+    "constraints": [
+      "0 ≤ n ≤ 100",
+      "1 ≤ number of nodes in sub-linked list(mi) ≤ 50",
+      "1 ≤ node->data ≤ 10^5"
+    ],
+    "difficulty": "Medium"
   },
   "Intersection of 2 linked list.cpp": {
     "title": "Intersection of Two Linked Lists",
     "source": "LeetCode #160",
     "link": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
-    "description": "Given the heads of two singly linked lists headA and headB, return the node at which they intersect. If the two linked lists have no intersection, return null."
+    "description": "Given the heads of two singly linked lists headA and headB, return the node at which they intersect. If the two linked lists have no intersection, return null.",
+    "constraints": [
+      "The number of nodes of listA is in the m.",
+      "The number of nodes of listB is in the n.",
+      "1 <= m, n <= 3 * 10^4",
+      "1 <= Node.val <= 10^5",
+      "0 <= skipA <= m",
+      "0 <= skipB <= n",
+      "intersectVal is 0 if listA and listB do not intersect.",
+      "intersectVal == listA[skipA] == listB[skipB] if listA and listB intersect."
+    ],
+    "difficulty": "Easy"
   },
   "Linked List Cycle II.cpp": {
     "title": "Linked List Cycle II",
     "source": "LeetCode #142",
     "link": "https://leetcode.com/problems/linked-list-cycle-ii/",
-    "description": "Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null. Do not modify the linked list."
+    "description": "Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null. Do not modify the linked list.",
+    "constraints": [
+      "The number of the nodes in the list is in the range [0, 10^4].",
+      "-10^5 <= Node.val <= 10^5",
+      "pos is -1 or a valid index in the linked-list."
+    ],
+    "difficulty": "Medium"
   },
   "Linked List Random Node.cpp": {
     "title": "Linked List Random Node",
     "source": "LeetCode #382",
     "link": "https://leetcode.com/problems/linked-list-random-node/",
-    "description": "Given a singly linked list, implement a solution to return a random node's value from the linked list. Each node must have the same probability of being chosen. Implement using reservoir sampling for O(1) space."
+    "description": "Given a singly linked list, implement a solution to return a random node's value from the linked list. Each node must have the same probability of being chosen. Implement using reservoir sampling for O(1) space.",
+    "constraints": [
+      "The number of nodes in the linked list will be in the range [1, 10^4].",
+      "-10^4 <= Node.val <= 10^4",
+      "At most 104 calls will be made to getRandom."
+    ],
+    "difficulty": "Medium"
   },
   "Merge 2 sorted linked list in reverse order.cpp": {
     "title": "Merge Two Sorted Linked Lists in Reverse Order",
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/merge-2-sorted-linked-list-in-reverse-order/1",
-    "description": "Given two sorted linked lists, merge them and return the merged list in reverse (descending) order."
+    "description": "Given two sorted linked lists, merge them and return the merged list in reverse (descending) order.",
+    "constraints": [
+      "1 ≤ size of the LinkedLists ≤ 10^5",
+      "0 ≤ node->data ≤ 10^6"
+    ],
+    "difficulty": "Medium"
   },
   "Merge k Sorted Lists.cpp": {
     "title": "Merge K Sorted Lists",
@@ -2092,7 +2338,7 @@
       ]
     ]
   },
-  "Apartments.cpp": {
+  "CSES - Apartments.cpp": {
     "title": "Apartments",
     "source": "CSES",
     "link": "https://cses.fi/problemset/task/1084",
