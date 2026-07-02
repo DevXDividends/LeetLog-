@@ -5,7 +5,7 @@ create table
         topic varchar(100) NOT NULL,
         difficulty text NOT NULL,
         source varchar(50) NOT NULL,
-        this is fijnal for now lets build link TEXT,
+         link TEXT,
         description TEXT NOT NULL,
         constraints TEXT NOT NULL,
         examples JSONB NOT NULL,
