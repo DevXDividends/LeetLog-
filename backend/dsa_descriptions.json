@@ -2091,5 +2091,24 @@
         }
       ]
     ]
+  },
+  "Apartments.cpp": {
+    "title": "Apartments",
+    "source": "CSES",
+    "link": "https://cses.fi/problemset/task/1084",
+    "description": "There are n applicants and m free apartments. Your task is to distribute the apartments so that as many applicants as possible will get an apartment.\n\nEach applicant has a desired apartment size, and they will accept any apartment whose size differs from their desired size by at most k.",
+    "constraints": [
+      "1 <= n, m <= 2 * 10^5",
+      "0 <= k <= 10^9",
+      "1 <= a[i], b[i] <= 10^9"
+    ],
+    "difficulty": "Easy",
+    "examples": [
+      {
+        "input": "n = 4, m = 3, k = 5\napplicants = [60, 45, 80, 60]\napartments = [30, 60, 75]",
+        "output": "2",
+        "explanation": "Applicants with desired sizes 60 and 80 can be assigned apartments of sizes 60 and 75 respectively. The remaining applicants cannot be assigned a suitable apartment."
+      }
+    ]
   }
 }
