@@ -1617,6 +1617,7 @@
       "1 <= arr[i] <= 10^6",
       "1 <= target <= 10^6"
     ],
+    "difficulty": "Easy",
     "examples": [
       {
         "input": "arr[] = [1, 1, 2, 2, 2, 2, 3], target = 2",
@@ -1640,6 +1641,14 @@
     "source": "LeetCode #33",
     "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/description/",
     "description": "There is an integer array nums sorted in ascending order (with distinct values).Prior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2].Given the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.You must write an algorithm with O(log n) runtime complexity. ",
+    "constraints": [
+      "1 <= nums.length <= 5000",
+      "-104 <= nums[i] <= 104",
+      "All values of nums are unique.",
+      "nums is an ascending array that is possibly rotated.",
+      "-104 <= target <= 104"
+    ],
+    "difficulty": "Medium",
     "examples": [
       {
         "input": " nums = [4,5,6,7,0,1,2], target = 0",
@@ -1656,6 +1665,431 @@
         "output": "-1",
         "explanation": ""
       }
+    ]
+  },
+  "Binary Subarrays With Sum.cpp": {
+    "title": " Binary Subarrays With Sum",
+    "source": "LeetCode #930",
+    "link": "https://leetcode.com/problems/binary-subarrays-with-sum/",
+    "description": "Given a binary array nums and an integer goal, return the number of non-empty subarrays with a sum goal.A subarray is a contiguous part of the array. ",
+    "constraints": [
+      "1 <= nums.length <= 3 * 104",
+      "nums[i] is either 0 or 1.",
+      "0 <= goal <= nums.length"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "  nums = [1,0,1,0,1], goal = 2",
+        "output": " 4",
+        "explanation": "The 4 subarrays are bolded and underlined below:[1,0,1,0,1]\n [1,0,1,0,1] \n[1,0,1,0,1] \n [1,0,1,0,1]"
+      },
+      {
+        "input": "nums = [0,0,0,0,0], goal = 0",
+        "output": "15",
+        "explanation": ""
+      }
+    ]
+  },
+  "Count Number of Nice Subarrays.cpp": {
+    "title": "Count Number of Nice Subarrays",
+    "source": "LeetCode #1248",
+    "link": "https://leetcode.com/problems/count-number-of-nice-subarrays/description/",
+    "description": "Given an array of integers nums and an integer k. A continuous subarray is called nice if there are k odd numbers on it.Return the number of nice sub-arrays. ",
+    "constraints": [
+      "1 <= nums.length <= 50000",
+      "1 <= nums[i] <= 10^5",
+      "1 <= k <= nums.length"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "nums = [1,1,2,1,1], k = 3",
+        "output": "2",
+        "explanation": "The only sub-arrays with 3 odd numbers are [1,1,2,1] and [1,2,1,1]."
+      },
+      {
+        "input": "nums = [2,4,6], k = 1",
+        "output": " 0",
+        "explanation": "There are no odd numbers in the array."
+      },
+      {
+        "input": "nums = [2,2,2,1,2,2,1,2,2,2], k = 20",
+        "output": "16",
+        "explanation": ""
+      }
+    ]
+  },
+  "Fruit Into Baskets.cpp": {
+    "title": "Fruit Into Baskets",
+    "source": "LeetCode #904",
+    "link": "https://leetcode.com/problems/fruit-into-baskets/description/",
+    "description": "You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the type of fruit the ith tree produces.\n You want to collect as much fruit as possible. However the owner has some strict rules that you must follow: \n You only have two baskets and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold.\n Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.\n Once you reach a tree with fruit that cannot fit in your baskets you must stop.\n Given the integer array fruits \n return the maximum number of fruits you can pick. ",
+    "constraints": [
+      "1 <= fruits.length <= 105",
+      "0 <= fruits[i] < fruits.length"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "fruits = [1,2,1]",
+        "output": "3",
+        "explanation": "We can pick from all 3 trees."
+      },
+      {
+        "input": " fruits = [0,1,2,2]",
+        "output": "3",
+        "explanation": "We can pick from trees [1,2,2].\n If we had started at the first tree, we would only pick from trees [0,1]."
+      },
+      {
+        "input": "fruits = [1,2,3,2,2]",
+        "output": "4",
+        "explanation": "We can pick from trees [2,3,2,2]. \n If we had started at the first tree, we would only pick from trees [1,2]."
+      }
+    ]
+  },
+  "Indexes of Subarray Sum.cpp": {
+    "title": "Indexes of Subarray Sum",
+    "source": "GFG #1587115621",
+    "link": "https://www.geeksforgeeks.org/problems/subarray-with-given-sum-1587115621/1",
+    "description": "Given an array arr[] containing only non-negative integers, your task is to find a continuous subarray (a contiguous sequence of elements) whose sum equals a specified value target. You need to return the 1-based indices of the leftmost and rightmost elements of this subarray. You need to find the first subarray whose sum is equal to the target.\n Note: If no such array is possible then, return [-1]. ",
+    "constraints": [
+      "1 ≤ arr.size() ≤ 106",
+      "0 ≤ arr[i] ≤ 103",
+      "0 ≤ target ≤ 109"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "arr[] = [1, 2, 3, 7, 5], target = 12",
+        "output": "[2, 4]",
+        "explanation": "The sum of elements from 2nd to 4th position is 12.."
+      },
+      {
+        "input": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10], target = 15",
+        "output": "[1, 5]",
+        "explanation": "The sum of elements from 1st to 5th position is 15."
+      },
+      {
+        "input": "arr[] = [5, 3, 4], target = 2",
+        "output": " [-1]",
+        "explanation": "There is no subarray with sum 2.."
+      }
+    ]
+  },
+  "Longest Repeating Character Replacement.cpp": {
+    "title": "Longest Repeating Character Replacement",
+    "source": "LeetCode #424",
+    "link": "https://leetcode.com/problems/longest-repeating-character-replacement/description/",
+    "description": "You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.\n Return the length of the longest substring containing the same letter you can get after performing the above operations. ",
+    "constraints": [
+      "1 ≤ arr.size() ≤ 106",
+      "0 ≤ arr[i] ≤ 103",
+      "0 ≤ target ≤ 109"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "s = 'ABAB', k = 2",
+        "output": "4",
+        "explanation": "Replace the two 'A's with two 'B's or vice versa."
+      },
+      {
+        "input": " s = 'AABABBA', k = 1",
+        "output": "4",
+        "explanation": "Replace the one 'A' in the middle with 'B' and form 'AABBBBA'.\n The substring 'BBBB' has the longest repeating letters, which is 4.\n There may exists other ways to achieve this answer too."
+      }
+    ]
+  },
+  "Longest Substring With At Most K Distinct Characters.cpp": {
+    "title": " Longest Substring With At Most K Distinct Characters",
+    "source": "GFG #0853",
+    "link": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "description": "You are given a string s consisting only lowercase alphabets and an integer k. Your task is to find the length of the longest substring that contains exactly k distinct characters.\n Note : If no such substring exists, return -1.  ",
+    "constraints": [
+      "1 ≤ arr.size() ≤ 106",
+      "0 ≤ arr[i] ≤ 103",
+      "0 ≤ target ≤ 109"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "s = 'aabacbebebe', k = 3",
+        "output": "7",
+        "explanation": "The longest substring with exactly 3 distinct characters is 'cbebebe', which includes 'c', 'b', and 'e'."
+      },
+      {
+        "input": "s = 'aaaa', k = 2",
+        "output": "-1",
+        "explanation": "There's no substring with 2 distinct characters."
+      },
+      {
+        "input": " s = 'aabaaab', k = 2",
+        "output": "7",
+        "explanation": "The entire string 'aabaaab' has exactly 2 unique characters 'a' and 'b', making it the longest valid substring."
+      }
+    ]
+  },
+  "Longest Substring with K Uniques.cpp": {
+    "title": "Longest Substring with K Uniques",
+    "source": "GFG #0853",
+    "link": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "description": "You are given a string s consisting only lowercase alphabets and an integer k. Your task is to find the length of the longest substring that contains exactly k distinct characters.\n Note : If no such substring exists, return -1.  ",
+    "constraints": [
+      "1 ≤ arr.size() ≤ 106",
+      "0 ≤ arr[i] ≤ 103",
+      "0 ≤ target ≤ 109"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "s = 'aabacbebebe', k = 3",
+        "output": "7",
+        "explanation": "The longest substring with exactly 3 distinct characters is 'cbebebe', which includes 'c', 'b', and 'e'."
+      },
+      {
+        "input": "s = 'aaaa', k = 2",
+        "output": "-1",
+        "explanation": "There's no substring with 2 distinct characters."
+      },
+      {
+        "input": " s = 'aabaaab', k = 2",
+        "output": "7",
+        "explanation": "The entire string 'aabaaab' has exactly 2 unique characters 'a' and 'b', making it the longest valid substring."
+      }
+    ]
+  },
+  "Longest Substring with At Least K Repeating Characters.cpp": {
+    "title": "Longest Substring with At Least K Repeating Characters",
+    "source": "LeetCode #395",
+    "link": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/",
+    "description": "Given a string s and an integer k, return the length of the longest substring of s such that the frequency of each character in this substring is greater than or equal to k.\n if no such substring exists, return 0.  ",
+    "constraints": [
+      "1 <= s.length <= 104",
+      "s consists of only lowercase English letters.",
+      "1 <= k <= 105"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "s = 'aaabb', k = 3",
+        "output": "3",
+        "explanation": "The longest substring is 'aaa', as 'a' is repeated 3 times."
+      },
+      {
+        "input": "s = 'ababbc', k = 2",
+        "output": "5",
+        "explanation": "The longest substring is 'ababb', as 'a' is repeated 2 times and 'b' is repeated 3 times."
+      }
+    ]
+  },
+  "Max Consecutive Ones III.cpp": {
+    "title": "Max Consecutive Ones III",
+    "source": "LeetCode #1004",
+    "link": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+    "description": "Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.  ",
+    "constraints": [
+      "1 <= s.length <= 104",
+      "s consists of only lowercase English letters.",
+      "1 <= k <= 105"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], k = 3",
+        "output": "10",
+        "explanation": "[0,0,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,1,1]\n Bolded numbers were flipped from 0 to 1. The longest subarray is underlined."
+      },
+      {
+        "input": "nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2",
+        "output": "6",
+        "explanation": "[1,1,1,0,0,1,1,1,1,1,1]\n Bolded numbers were flipped from 0 to 1. The longest subarray is underlined."
+      }
+    ]
+  },
+  "Max Sum Subarray of size K.cpp": {
+    "title": "Max Sum Subarray of size K",
+    "source": "GFG #5313",
+    "link": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+    "description": "Given an array of integers arr[]  and a number k. Return the maximum sum of a subarray of size k.\n Note: A subarray is a contiguous part of any given array. ",
+    "constraints": [
+      "1 ≤ arr.size() ≤ 106",
+      "0 ≤ arr[i] ≤ 106",
+      "1 ≤ k ≤ arr.size()"
+    ],
+    "difficulty": "Easy",
+    "examples": [
+      {
+        "input": " arr[] = [100, 200, 300, 400], k = 2",
+        "output": "700",
+        "explanation": "arr2 + arr3 = 700, which is maximum."
+      },
+      {
+        "input": "arr[] = [1, 4, 2, 10, 23, 3, 1, 0, 20], k = 4",
+        "output": "39",
+        "explanation": "arr1 + arr2 + arr3 + arr4 = 39, which is maximum.."
+      },
+      {
+        "input": "arr[] = [100, 200, 300, 400], k = 1",
+        "output": "400",
+        "explanation": "arr3 = 400, which is maximum."
+      }
+    ]
+  },
+  "Maximum Points You Can Obtain from Cards.cpp": {
+    "title": " Maximum Points You Can Obtain from Cards",
+    "source": "LeetCode #1423",
+    "link": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/description//",
+    "description": "There are several cards arranged in a row, and each card has an associated number of points. The points are given in the integer array cardPoints.\n In one step, you can take one card from the beginning or from the end of the row. You have to take exactly k cards.\n Your score is the sum of the points of the cards you have taken.\n Given the integer array cardPoints and the integer k, return the maximum score you can obtain.",
+    "constraints": [
+      "1 ≤ arr.size() ≤ 106",
+      "0 ≤ arr[i] ≤ 106",
+      "1 ≤ k ≤ arr.size()"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "cardPoints = [1,2,3,4,5,6,1], k = 3",
+        "output": "12",
+        "explanation": "After the first step, your score will always be 1. However, choosing the rightmost card first will maximize your total score. The optimal strategy is to take the three cards on the right, giving a final score of 1 + 6 + 5 = 12."
+      },
+      {
+        "input": "cardPoints = [2,2,2], k = 2",
+        "output": "4",
+        "explanation": "Regardless of which two cards you take, your score will always be 4."
+      },
+      {
+        "input": "cardPoints = [9,7,7,9,7,7,9], k = 7",
+        "output": "55",
+        "explanation": "You have to take all the cards. Your score is the sum of points of all cards."
+      }
+    ]
+  },
+  "Number of Substrings Containing All Three Characters.cpp": {
+    "title": " Number of Substrings Containing All Three Characters",
+    "source": "LeetCode #1358",
+    "link": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/",
+    "description": "Given a string s consisting only of characters a, b and c.\n Return the number of substrings containing at least one occurrence of all these characters a, b and c. ",
+    "constraints": [
+      "3 <= s.length <= 5 x 10^4",
+      "s only consists of a, b or c characters."
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "s = 'abcabc'",
+        "output": "10",
+        "explanation": "The substrings containing at least one occurrence of the characters a, b and c are abc', 'abca', 'abcab', 'abcabc', 'bca', 'bcab', 'bcabc', 'cab', 'cabc' and 'abc' (again). "
+      },
+      {
+        "input": " s = 'aaacb'",
+        "output": "3",
+        "explanation": "The substrings containing at least one occurrence of the characters a, b and c are 'aaacb', 'aacb' and 'acb'. "
+      },
+      {
+        "input": " s = 'abc'",
+        "output": "1",
+        "explanation": ""
+      }
+    ]
+  },
+  "Subarrays with K Different Integers.cpp": {
+    "title": "Subarrays with K Different Integers.cpp",
+    "source": "LeetCode #992  ",
+    "link": "https://leetcode.com/problems/subarrays-with-k-different-integers/description/",
+    "description": "Given an integer array nums and an integer k, return the number of good subarrays of nums.\n A good array is an array where the number of different integers in that array is exactly k.\n For example, [1,2,3,1,2] has 3 different integers: 1, 2, and 3.\n A subarray is a contiguous part of an array. ",
+    "constraints": [
+      "1 <= nums.length <= 2 * 104",
+      "1 <= nums[i], k <= nums.length "
+    ],
+    "difficulty": "Hard",
+    "examples": [
+      {
+        "input": "nums = [1,2,1,2,3], k = 2",
+        "output": "7",
+        "explanation": "Subarrays formed with exactly 2 different integers: [1,2], [2,1], [1,2], [2,3], [1,2,1], [2,1,2], [1,2,1,2] "
+      },
+      {
+        "input": "nums = [1,2,1,3,4], k = 3",
+        "output": "3",
+        "explanation": "Subarrays formed with exactly 3 different integers: [1,2,1,3], [2,1,3], [1,3,4]. "
+      }
+    ]
+  },
+  "LRU Cache.cpp": {
+    "title": "LRU Cache",
+    "source": "LeetCode #146  ",
+    "link": "https://leetcode.com/problems/lru-cache/description/",
+    "description": "Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.\n Implement the LRUCache class:\n LRUCache(int capacity) Initialize the LRU cache with positive size capacity.\n int get(int key) Return the value of the key if the key exists, otherwise return -1.\n void put(int key, int value) Update the value of the key if the key exists. Otherwise, add the key-value pair to the cache. If the number of keys exceeds the capacity from this operation, evict the least recently used key.\n The functions get and put must each run in O(1) average time complexity. ",
+    "constraints": [
+      "1 <= capacity <= 3000",
+      "0 <= key <= 104",
+      "0 <= value <= 105",
+      "At most 2 * 105 calls will be made to get and put."
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "operations = [\"LRUCache\", \"put\", \"put\", \"get\", \"put\", \"get\", \"put\", \"get\", \"get\", \"get\"], arguments = [[2], [1,1], [2,2], [1], [3,3], [2], [4,4], [1], [3], [4]]",
+        "output": "[null, null, null, 1, null, -1, null, -1, 3, 4]",
+        "explanation": "LRUCache is initialized with capacity 2. put(1,1) and put(2,2) insert two entries. get(1) returns 1 and makes key 1 the most recently used. put(3,3) evicts key 2 as it is the least recently used. get(2) returns -1. put(4,4) evicts key 1. Finally, get(1) returns -1, get(3) returns 3, and get(4) returns 4."
+      }
+    ]
+  },
+  "Sliding Window Maximum.cpp": {
+    "title": "Sliding Window Maximum",
+    "source": "LeetCode #239  ",
+    "link": "https://leetcode.com/problems/sliding-window-maximum/description/",
+    "description": "You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.\n Return the max sliding window. ",
+    "constraints": [
+      "1 <= k <= nums.length",
+      "-104 <= nums[i] <= 104",
+      "1 <= nums.length <= 105"
+    ],
+    "difficulty": "Hard",
+    "examples": [
+      [
+        {
+          "input": "nums = [1,3,-1,-3,5,3,6,7], k = 3",
+          "output": "[3,3,5,5,6,7]",
+          "explanation": "The maximum value in each sliding window of size 3 is: [1,3,-1] → 3, [3,-1,-3] → 3, [-1,-3,5] → 5, [-3,5,3] → 5, [5,3,6] → 6, [3,6,7] → 7."
+        },
+        {
+          "input": "nums = [1], k = 1",
+          "output": "[1]",
+          "explanation": "There is only one element in the array, so the maximum value in the only window is 1."
+        }
+      ]
+    ]
+  },
+  "Longest substring without repeating characters.cpp": {
+    "title": "Longest substring without repeating characters",
+    "source": "LeetCode #3  ",
+    "link": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+    "description": "Given a string s, find the length of the longest substring without duplicate characters. ",
+    "constraints": [
+      "0 <= s.length <= 5 * 104",
+      "s consists of English letters, digits, symbols and spaces."
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      [
+        {
+          "input": "s = \"abcabcbb\"",
+          "output": "3",
+          "explanation": "The longest substring without repeating characters is \"abc\", which has length 3. \"bca\" and \"cab\" are also valid substrings of length 3."
+        },
+        {
+          "input": "s = \"bbbbb\"",
+          "output": "1",
+          "explanation": "All characters are the same, so the longest substring without repeating characters is \"b\", with length 1."
+        },
+        {
+          "input": "s = \"pwwkew\"",
+          "output": "3",
+          "explanation": "The longest substring without repeating characters is \"wke\", which has length 3. \"pwke\" is a subsequence, not a substring."
+        }
+      ]
     ]
   }
 }
