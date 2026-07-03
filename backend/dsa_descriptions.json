@@ -668,7 +668,7 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/find-the-fractional-part-of-a-number3636/1",
     "description": "Given a singly linked list and an integer k, find the value of the node at position floor(n/k), where n is the total number of nodes.",
-    "constraints": [],
+    "constraints": ["Constraints not available."],
     "difficulty": "Medium"
   },
   "Find length of Loop.cpp": {
@@ -1310,7 +1310,7 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/next-smaller-element/1",
     "description": "Given an array of integers, find the next smaller element for each element of the array. If no smaller element exists on the right side, return -1.",
-    "constraints": [],
+    "constraints": ["Constraints not available."],
     "difficulty": "Medium",
     "examples": [
       {
@@ -1871,7 +1871,7 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/morris-traversal/1",
     "description": "Implement preorder traversal of a binary tree using Morris Traversal, which achieves O(1) space complexity (no recursion or explicit stack). The traversal visits root before the left and right subtrees by threading the tree.",
-    "constraints": [],
+    "constraints": ["Constraints not available."],
     "difficulty": "Medium"
   },
   "Morris traversal for inroder": {
