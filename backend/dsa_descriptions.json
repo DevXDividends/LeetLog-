@@ -2890,5 +2890,113 @@
         "explanation": "Applicants with desired sizes 60 and 80 can be assigned apartments of sizes 60 and 75 respectively. The remaining applicants cannot be assigned a suitable apartment."
       }
     ]
+  },
+  "Intersection of Two Arrays II.cpp": {
+    "title": "Intersection of Two Arrays II",
+    "source": "LeetCode #350",
+    "link": "https://leetcode.com/problems/intersection-of-two-arrays-ii/description/",
+    "description": "Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must appear as many times as it shows in both arrays and you may return the result in any order.",
+    "constraints": [
+      "What if the given array is already sorted? How would you optimize your algorithm?",
+      "What if nums1's size is small compared to nums2's size? Which algorithm is better?",
+      "What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?"
+    ],
+    "difficulty": "Easy",
+    "examples": [
+      {
+        "input": "nums1 = [1,2,2,1], nums2 = [2,2]",
+        "output": "[2,2]",
+        "explanation": "[2,2]"
+      },
+      {
+        "input": "nums1 = [4,9,5], nums2 = [9,4,9,8,4]",
+        "output": "[4,9]",
+        "explanation": "[9,4] is also accepted."
+      }
+    ]
+  },
+  "Maximum Average Subarray I.cpp": {
+    "title": "Maximum Average Subarray I",
+    "source": "LeetCode #643",
+    "link": "https://leetcode.com/problems/maximum-average-subarray-i/description/",
+    "description": "You are given an integer array nums consisting of n elements, and an integer k.\nFind a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.",
+    "constraints": [
+      "n == nums.length",
+      "1 <= k <= n <= 10^5",
+      "-10^4 <= nums[i] <= 10^4"
+    ],
+    "difficulty": "Easy",
+    "examples": [
+      {
+        "input": "nums = [1,12,-5,-6,50,3], k = 4",
+        "output": "12.75000",
+        "explanation": "Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75"
+      },
+      {
+        "input": "nums = [5], k = 1",
+        "output": "5.00000",
+        "explanation": "5.00000"
+      }
+    ]
+  },
+  "Substrings of Size Three with Distinct Characters.cpp": {
+    "title": "Substrings of Size Three with Distinct Characters",
+    "source": "LeetCode #1876",
+    "link": "https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/",
+    "description": "A string is good if there are no repeated characters.\n Given a string s​​​​​, return the number of good substrings of length three in s​​​​​​.\n Note that if there are multiple occurrences of the same substring, every occurrence should be counted. \n A substring is a contiguous sequence of characters in a string.",
+    "constraints": [
+      "1 <= s.length <= 100",
+      "s​​​​​​ consists of lowercase English letters."
+    ],
+    "difficulty": "Easy",
+    "examples": [
+      [
+        {
+          "input": "s = \"xyzzaz\"",
+          "output": "1",
+          "explanation": "The substrings of length 3 are \"xyz\", \"yzz\", \"zza\", and \"zaz\". Only \"xyz\" contains all distinct characters, so the answer is 1."
+        },
+        {
+          "input": "s = \"aababcabc\"",
+          "output": "4",
+          "explanation": "The substrings of length 3 are \"aab\", \"aba\", \"bab\", \"abc\", \"bca\", \"cab\", and \"abc\". The good substrings with all distinct characters are \"abc\", \"bca\", \"cab\", and \"abc\", so the answer is 4."
+        }
+      ]
+    ]
+  },
+  "Two Sum II - Input Array Is Sorted.cpp": {
+    "title": "Two Sum II - Input Array Is Sorted",
+    "source": "LeetCode #167",
+    "link": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/",
+    "description": "Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and numbers[index2] where 1 <= index1 < index2 <= numbers.length.\n Return the indices of the two numbers index1 and index2, each incremented by one, as an integer array [index1, index2] of length 2.\n The tests are generated such that there is exactly one solution. You may not use the same element twice.\n Your solution must use only constant extra space.",
+    "constraints": [
+      "2 <= numbers.length <= 3 * 10^4",
+      "-1000 <= numbers[i] <= 1000",
+      "numbers is sorted in non-decreasing order.",
+      "-1000 <= target <= 1000",
+      "The tests are generated such that there is exactly one solution."
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      [
+        [
+          {
+            "input": "numbers = [2,7,11,15], target = 9",
+            "output": "[1,2]",
+            "explanation": "The sum of 2 and 7 is 9. Therefore, index1 = 1 and index2 = 2, so we return [1,2]."
+          },
+          {
+            "input": "numbers = [2,3,4], target = 6",
+            "output": "[1,3]",
+            "explanation": "The sum of 2 and 4 is 6. Therefore, index1 = 1 and index2 = 3, so we return [1,3]."
+          },
+          {
+            "input": "numbers = [-1,0], target = -1",
+            "output": "[1,2]",
+            "explanation": "The sum of -1 and 0 is -1. Therefore, index1 = 1 and index2 = 2, so we return [1,2]."
+          }
+        ]
+      ]
+    ]
   }
 }
