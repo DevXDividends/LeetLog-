@@ -19,7 +19,7 @@ def load_data():
 
     
 def load_description():
-    with open("dsa_descriptions.json",'r')as file:
+    with open("dsa_descriptions.json",'r',encoding="utf-8")as file:
         return json.load(file)
 
 data = load_data()
@@ -69,6 +69,8 @@ def get_problem(topic,problem_name):
         "description":description[problem_name].get("description","No Description present for this problem "),
         "examples":description[problem_name].get("examples",[]),
         "link":description[problem_name].get("link"," "),
+        "constraints":description[problem_name].get("constraints",[]),
+        "difficulty":description[problem_name].get("difficulty","Medium"),
         "code":data[topic].get(problem_name," ")
     }
     

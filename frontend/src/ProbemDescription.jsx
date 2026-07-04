@@ -1,4 +1,4 @@
-
+import ProblemMeta from "./ProblemMeta";
 
 function ProblemDescription({
   problem,
@@ -6,12 +6,14 @@ function ProblemDescription({
   source,
   link,
   description,
+  difficulty,
+  constraints,
 }) {
   return (
     <div className="mb-12">
-      <h1 className="text-5xl font-bold text-white mb-6 ">{problem}</h1>
+      <h1 className="text-5xl font-bold text-white mb-6">{problem}</h1>
 
-      <div className="text-gray-400 text-sm mb-2 ">
+      <div className="text-gray-400 text-sm mb-2">
         Category: {selectedTopic}
       </div>
 
@@ -26,10 +28,18 @@ function ProblemDescription({
         </a>
       </div>
 
-      <h2 className="text-4xl font-bold mb-6 ">Description</h2>
+      <ProblemMeta
+        difficulty={difficulty}
+        constraints={constraints}
+      />
 
-      <p className=" text-gray-200 text-lg leading-8 ">{description}</p>
+      <h2 className="text-4xl font-bold mb-6">Description</h2>
+
+      <p className="text-gray-200 text-lg leading-8 whitespace-pre-line">
+        {description}
+      </p>
     </div>
   );
 }
+
 export default ProblemDescription;
