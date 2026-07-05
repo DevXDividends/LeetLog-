@@ -28,14 +28,17 @@ CREATE TABLE StarterCode (
 
     problem_id INTEGER NOT NULL,
 
+    language VARCHAR(20) NOT NULL,
+    template_code TEXT NOT NULL,
+    wrapper_main TEXT NOT NULL,
+
     CONSTRAINT fk_starter_problem
         FOREIGN KEY (problem_id)
         REFERENCES Problems(id)
         ON DELETE CASCADE,
 
-    language VARCHAR(20) NOT NULL,
-    template_code TEXT NOT NULL,
-    wrapper_main TEXT NOT NULL
+    CONSTRAINT uq_starter_problem_language
+        UNIQUE (problem_id, language)
 );
 
 CREATE TABLE TestCases (
@@ -43,12 +46,21 @@ CREATE TABLE TestCases (
 
     problem_id INTEGER NOT NULL,
 
+    input JSONB NOT NULL,
+    expected_output JSONB NOT NULL,
+
+    is_hidden BOOLEAN NOT NULL DEFAULT FALSE,
+
     CONSTRAINT fk_testcase_problem
         FOREIGN KEY (problem_id)
         REFERENCES Problems(id)
         ON DELETE CASCADE,
 
-    input TEXT NOT NULL,
-    expected_output TEXT NOT NULL,
-    is_hidden BOOLEAN NOT NULL DEFAULT FALSE
+    CONSTRAINT uq_testcase
+        UNIQUE (
+            problem_id,
+            input,
+            expected_output,
+            is_hidden
+        )
 );
