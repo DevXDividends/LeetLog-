@@ -1,3 +1,6 @@
 venv/
 .env
 __pycache__/
+scripts/missing_editorial.json
+scripts/problems_needing_starter_code.json
+scripts/starter_code_for_missing_problems.json
