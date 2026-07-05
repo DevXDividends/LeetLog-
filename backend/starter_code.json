@@ -834,11 +834,6 @@
     "template_code": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& nums, int target) {\n        \n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int nums_n; cin >> nums_n;\n    vector<int> nums(nums_n);\n    for (int i = 0; i < nums_n; i++) cin >> nums[i];\n    int target;\n    cin >> target;\n    \n    Solution obj;\n    auto ans = obj.twoSum(nums, target);\n    for (size_t i = 0; i < ans.size(); i++) cout << ans[i] << \" \";\n}"
   },
-  "Sliding Window Maximumn.cpp": {
-    "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    vector<int> maxSlidingWindow(vector<int>& nums, int k) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int nums_n; cin >> nums_n;\n    vector<int> nums(nums_n);\n    for (int i = 0; i < nums_n; i++) cin >> nums[i];\n    int k;\n    cin >> k;\n    \n    Solution obj;\n    auto ans = obj.maxSlidingWindow(nums, k);\n    for (size_t i = 0; i < ans.size(); i++) cout << ans[i] << \" \";\n}"
-  },
   "Maximum Average Subarray I.cpp": {
     "language": "cpp",
     "template_code": "class Solution {\npublic:\n    double findMaxAverage(vector<int>& nums, int k) {\n        \n    }\n};",
