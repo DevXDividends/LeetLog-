@@ -853,5 +853,10 @@
     "language": "cpp",
     "template_code": "class Solution {\npublic:\n    vector<int> twoSum(vector<int>& numbers, int target) {\n        \n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int numbers_n; cin >> numbers_n;\n    vector<int> numbers(numbers_n);\n    for (int i = 0; i < numbers_n; i++) cin >> numbers[i];\n    int target;\n    cin >> target;\n    \n    Solution obj;\n    auto ans = obj.twoSum(numbers, target);\n    for (size_t i = 0; i < ans.size(); i++) cout << ans[i] << \" \";\n}"
+  },
+  "Longest Nice Subarray.cpp": {
+    "language": "cpp",
+    "template_code": "class Solution {\npublic:\n    int longestNiceSubarray(vector<int>& nums) {\n        \n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int nums_n; cin >> nums_n;\n    vector<int> nums(nums_n);\n    for (int i = 0; i < nums_n; i++) cin >> nums[i];\n    \n    Solution obj;\n    auto ans = obj.longestNiceSubarray(nums);\n    cout << ans;\n}"
   }
 }
