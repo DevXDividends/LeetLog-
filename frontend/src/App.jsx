@@ -3,6 +3,7 @@ import Sidebar from "./Sidebar.jsx";
 import MainPage from "./MainPage.jsx";
 import Loader from "./Loader.jsx";
 import ErrorPage from "./ErrorPage.jsx";
+import ProblemList from "./ProblemList.jsx";
 
 function App() {
   const [AllTopics, setAllTopics] = useState([]);
@@ -118,15 +119,20 @@ function App() {
             setSelectedTopic={setSelectedTopic}
             AllProblems={AllProblems}
             setSelectedProblem={setSelectedProblem}
-          />
+          >
+            <ProblemList
+              AllProblems={AllProblems}
+              setSelectedProblem={setSelectedProblem}
+            />
+          </Sidebar>
 
-          
-            {problemData && <MainPage
+          {problemData && (
+            <MainPage
               collapsed={collapsed}
               problemData={problemData}
               selectedTopic={selectedTopic}
-            />}
-        
+            />
+          )}
         </>
       ) : (
         <Loader />

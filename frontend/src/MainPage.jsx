@@ -1,5 +1,6 @@
 import ProblemDescription from "./ProbemDescription";
 import ProblemExamples from "./ProblemExamples";
+import ProblemMeta from "./ProblemMeta";
 import Code from "./Code";
 
 function MainPage({ collapsed, problemData, selectedTopic }) {
@@ -14,9 +15,12 @@ function MainPage({ collapsed, problemData, selectedTopic }) {
           source={problemData["source"]}
           link={problemData["link"]}
           description={problemData["description"]}
-          constraints={problemData["constraints"]}
-          difficulty={problemData["difficulty"]}
-        />
+        >
+          <ProblemMeta
+            constraints={problemData["constraints"]}
+            difficulty={problemData["difficulty"]}
+          />
+        </ProblemDescription>
 
         <ProblemExamples examples={problemData["examples"]} />
         <Code code={problemData["code"]} />

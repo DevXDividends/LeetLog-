@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import ProblemList from "./ProblemList";
 import { GiArchiveResearch } from "react-icons/gi";
 
 function Sidebar({
@@ -7,8 +5,7 @@ function Sidebar({
   AllTopics,
   selectedTopic,
   setSelectedTopic,
-  AllProblems,
-  setSelectedProblem
+  children
 }) {
   return (
     <div
@@ -42,10 +39,7 @@ function Sidebar({
         </select>
       </div>
 
-    <ProblemList
-     AllProblems={AllProblems}
-     setSelectedProblem={setSelectedProblem}
-    />
+    {children}
     </div>
   );
 }

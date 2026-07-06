@@ -1,5 +1,3 @@
-
-
 function ProblemExamples({ examples }) {
   return (
     <div className="mb-12">

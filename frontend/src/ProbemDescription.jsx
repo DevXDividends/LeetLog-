@@ -1,13 +1,10 @@
-import ProblemMeta from "./ProblemMeta";
-
 function ProblemDescription({
   problem,
   selectedTopic,
   source,
   link,
   description,
-  difficulty,
-  constraints,
+ children
 }) {
   return (
     <div className="mb-12">
@@ -28,10 +25,7 @@ function ProblemDescription({
         </a>
       </div>
 
-      <ProblemMeta
-        difficulty={difficulty}
-        constraints={constraints}
-      />
+     {children}
 
       <h2 className="text-4xl font-bold mb-6">Description</h2>
 
