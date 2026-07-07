@@ -2985,5 +2985,59 @@
         ]
       ]
     ]
+  },
+  "Repeated DNA Sequences.cpp": {
+    "title": "Repeated DNA Sequences",
+    "source": "LeetCode #187",
+    "link": "https://leetcode.com/problems/repeated-dna-sequences/description/",
+    "description": "The DNA sequence is composed of a series of nucleotides abbreviated as 'A', 'C', 'G', and 'T'.\n For example, 'ACGAATTCCG' is a DNA sequence.\n When studying DNA, it is useful to identify repeated sequences within the DNA.\n Given a string s that represents a DNA sequence, return all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule. You may return the answer in any order.",
+    "constraints": [
+      "1 <= s.length <= 10^5",
+      "s[i] is either 'A', 'C', 'G', or 'T'."
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      [
+        [
+          {
+            "input": "s = 'AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT'",
+            "output": "['AAAAACCCCC','CCCCCAAAAA']",
+            "explanation": "Not available"
+          },
+          {
+            "input": " s = 'AAAAAAAAAAAAA'",
+            "output": " ['AAAAAAAAAA']",
+            "explanation": "Not available"
+          }
+        ]
+      ]
+    ]
+  },
+   "Reverse String.cpp": {
+    "title": "Reverse String",
+    "source": "LeetCode #344",
+    "link": "https://leetcode.com/problems/repeated-dna-sequences/description/",
+    "description": "Write a function that reverses a string. The input string is given as an array of characters s.\n You must do this by modifying the input array in-place with O(1) extra memory.",
+    "constraints": [
+      "1 <= s.length <= 10^5",
+      "s[i] is a printable ascii character."
+    ],
+    "difficulty": "Easy",
+    "examples": [
+      [
+        [
+          {
+            "input": "s = s = [h,e,l,l,o]",
+            "output": "[o,l,l,e,h]",
+            "explanation": "Not available"
+          },
+          {
+            "input": " s = s = [H,a,n,n,a,h]",
+            "output": "  [h,a,n,n,a,H]",
+            "explanation": "Not available"
+          }
+        ]
+      ]
+    ]
   }
 }

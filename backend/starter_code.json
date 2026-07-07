@@ -858,5 +858,15 @@
     "language": "cpp",
     "template_code": "class Solution {\npublic:\n    int longestNiceSubarray(vector<int>& nums) {\n        \n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int nums_n; cin >> nums_n;\n    vector<int> nums(nums_n);\n    for (int i = 0; i < nums_n; i++) cin >> nums[i];\n    \n    Solution obj;\n    auto ans = obj.longestNiceSubarray(nums);\n    cout << ans;\n}"
+  },
+  "Repeated DNA Sequences.cpp": {
+    "language": "cpp",
+    "template_code": "class Solution {\npublic:\n    vector<string> findRepeatedDnaSequences(string s) {\n        \n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    \n    Solution obj;\n    auto ans = obj.findRepeatedDnaSequences(s);\n    for (size_t i = 0; i < ans.size(); i++) cout << ans[i] << \"\\n\";\n}"
+  },
+  "Reverse String.cpp": {
+    "language": "cpp",
+    "template_code": "class Solution {\npublic:\n    void reverseString(vector<char>& s) {\n        \n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int s_n; cin >> s_n;\n    vector<char> s(s_n);\n    for (int i = 0; i < s_n; i++) cin >> s[i];\n    \n    Solution obj;\n    obj.reverseString(s);\n    for (size_t i = 0; i < s.size(); i++) cout << s[i] << \" \";\n    cout << \"\\n\";\n}"
   }
 }
