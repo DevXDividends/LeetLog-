@@ -868,5 +868,25 @@
     "language": "cpp",
     "template_code": "class Solution {\npublic:\n    void reverseString(vector<char>& s) {\n        \n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int s_n; cin >> s_n;\n    vector<char> s(s_n);\n    for (int i = 0; i < s_n; i++) cin >> s[i];\n    \n    Solution obj;\n    obj.reverseString(s);\n    for (size_t i = 0; i < s.size(); i++) cout << s[i] << \" \";\n    cout << \"\\n\";\n}"
+  },
+  "Climbing Stairs.cpp": {
+    "language": "cpp",
+    "template_code": "class Solution {\npublic:\n    int climbStairs(int n) {\n        \n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n    \n    Solution obj;\n    auto ans = obj.climbStairs(n);\n    cout << ans;\n}"
+  },
+  "All Subsequences of a String.cpp": {
+    "language": "cpp",
+    "template_code": "class Solution {\npublic:\n    vector<string> powerSet(string &s) {\n        \n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    \n    Solution obj;\n    auto ans = obj.powerSet(s);\n    for (size_t i = 0; i < ans.size(); i++) cout << ans[i] << \"\\n\";\n}"
+  },
+  "Count Good Numbers.cpp": {
+    "language": "cpp",
+    "template_code": "class Solution {\npublic:\n    int countGoodNumbers(long long n) {\n        \n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    long long n;\n    cin >> n;\n    \n    Solution obj;\n    auto ans = obj.countGoodNumbers(n);\n    cout << ans;\n}"
+  },
+  "Unique 3-Digit Even Numbers.cpp": {
+    "language": "cpp",
+    "template_code": "class Solution {\npublic:\n    int totalNumbers(vector<int>& digits) {\n        \n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int digits_n; cin >> digits_n;\n    vector<int> digits(digits_n);\n    for (int i = 0; i < digits_n; i++) cin >> digits[i];\n    \n    Solution obj;\n    auto ans = obj.totalNumbers(digits);\n    cout << ans;\n}"
   }
 }

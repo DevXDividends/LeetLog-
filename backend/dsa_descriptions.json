@@ -28,7 +28,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1",
     "description": "Given an array arr[] where arr[i] represents the number of pages in the i-th book, and k students. Allocate books to k students such that: (1) Each student gets at least one book, (2) Each book is allocated to exactly one student, (3) Books are allocated contiguously. Minimize the maximum number of pages assigned to any student. Return -1 if allocation is not possible.",
-    "constraints": ["1 ≤ arr.size() ≤ 10^6", "1 ≤ arr[i], k ≤ 10^3"],
+    "constraints": [
+      "1 ≤ arr.size() ≤ 10^6",
+      "1 ≤ arr[i], k ≤ 10^3"
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -48,7 +51,10 @@
     "source": "LeetCode #315",
     "link": "https://leetcode.com/problems/count-of-smaller-numbers-after-self/",
     "description": "Given an integer array nums, return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i].",
-    "constraints": ["-10^4 <= nums[i] <= 10^4", "-10^4 <= nums[i] <= 10^4"],
+    "constraints": [
+      "-10^4 <= nums[i] <= 10^4",
+      "-10^4 <= nums[i] <= 10^4"
+    ],
     "difficulty": "Hard",
     "examples": [
       {
@@ -161,7 +167,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/first-and-last-occurrences-of-x3116/1",
     "description": "Given a sorted array arr[] and a number x, find the first and last occurrences of x in the array. Return [-1, -1] if x is not present.",
-    "constraints": ["1 ≤ arr.size() ≤ 10^6", "1 ≤ arr[i], x ≤ 10^9"],
+    "constraints": [
+      "1 ≤ arr.size() ≤ 10^6",
+      "1 ≤ arr[i], x ≤ 10^9"
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -180,7 +189,9 @@
     "title": "First Bad Version",
     "source": "LeetCode #278",
     "link": "https://leetcode.com/problems/first-bad-version/",
-    "constraints": ["1 <= bad <= n <= 231 - 1"],
+    "constraints": [
+      "1 <= bad <= n <= 231 - 1"
+    ],
     "difficulty": "Easy",
     "description": "You are a product manager with n versions [1, 2, ..., n]. An API bool isBadVersion(version) returns whether a version is bad. All versions after the first bad version are also bad. Find the first bad version. Minimize the number of calls to the API.",
     "examples": [
@@ -263,7 +274,10 @@
     "title": "K-diff Pairs in an Array",
     "source": "LeetCode #532",
     "link": "https://leetcode.com/problems/k-diff-pairs-in-an-array/",
-    "constraints": ["1 <= nums.length <= 10^4", "-10^7 <= nums[i] <= 10^7"],
+    "constraints": [
+      "1 <= nums.length <= 10^4",
+      "-10^7 <= nums[i] <= 10^7"
+    ],
     "difficulty": "Medium",
     "description": "Given an array of integers nums and an integer k, return the number of unique k-diff pairs in the array. A k-diff pair is an integer pair (nums[i], nums[j]) where |nums[i] - nums[j]| == k and i != j.",
     "examples": [
@@ -381,7 +395,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1",
     "description": "Given a row-wise sorted matrix mat[][] of size r x c where r and c are always odd, find the median of the matrix. The overall matrix may not be sorted.",
-    "constraints": ["1 ≤ n, m ≤ 400", "1 ≤ mat[i][j] ≤ 2000"],
+    "constraints": [
+      "1 ≤ n, m ≤ 400",
+      "1 ≤ mat[i][j] ≤ 2000"
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -466,7 +483,9 @@
     "source": "LeetCode #292",
     "link": "https://leetcode.com/problems/nim-game/",
     "description": "You are playing Nim with a friend. There is a heap of n stones. You take turns, and each player can remove 1, 2, or 3 stones on their turn. The player who removes the last stone wins. Given n stones, determine if you can win assuming both players play optimally.",
-    "constraints": ["1 <= n <= 231 - 1"],
+    "constraints": [
+      "1 <= n <= 231 - 1"
+    ],
     "difficulty": "Easy",
     "examples": [
       {
@@ -583,7 +602,9 @@
     "source": "LeetCode #69",
     "link": "https://leetcode.com/problems/sqrtx/",
     "description": "Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative. Do not use any built-in exponent function or operator.",
-    "constraints": ["0 <= x <= 231 - 1"],
+    "constraints": [
+      "0 <= x <= 231 - 1"
+    ],
     "difficulty": "Easy",
     "examples": [
       {
@@ -613,7 +634,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1",
     "description": "Given a non-negative number represented as a linked list of digits (most significant digit first), add 1 to the number and return the resulting linked list.",
-    "constraints": ["1 ≤ len(list) ≤ 10", "0 ≤ list[i] ≤ 9"],
+    "constraints": [
+      "1 ≤ len(list) ≤ 10",
+      "0 ≤ list[i] ≤ 9"
+    ],
     "difficulty": "Medium"
   },
   "Convert Binary Number in a Linked List to Integer.cpp": {
@@ -668,7 +692,9 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/find-the-fractional-part-of-a-number3636/1",
     "description": "Given a singly linked list and an integer k, find the value of the node at position floor(n/k), where n is the total number of nodes.",
-    "constraints": ["Constraints not available."],
+    "constraints": [
+      "Constraints not available."
+    ],
     "difficulty": "Medium"
   },
   "Find length of Loop.cpp": {
@@ -890,7 +916,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/given-a-linked-list-reverse-alternate-nodes-and-append-at-the-end/1",
     "description": "Given a linked list, rearrange the list by separating the nodes at even positions and appending the reversed even-position nodes at the end of the remaining odd-position nodes.",
-    "constraints": ["0 ≤ Node_value ≤ 10^9", "1 ≤ size of linked list ≤ 10^6"],
+    "constraints": [
+      "0 ≤ Node_value ≤ 10^9",
+      "1 ≤ size of linked list ≤ 10^6"
+    ],
     "difficulty": "Medium"
   },
   "Rotate List.cpp": {
@@ -910,7 +939,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1",
     "description": "Given a linked list containing only 0s, 1s, and 2s, sort the list.",
-    "constraints": ["1 ≤ no. of nodes ≤ 10^6", "0 ≤ node->data ≤ 2"],
+    "constraints": [
+      "1 ≤ no. of nodes ≤ 10^6",
+      "0 ≤ node->data ≤ 2"
+    ],
     "difficulty": "Medium"
   },
   "Swapping Nodes in a Linked List.cpp": {
@@ -1033,7 +1065,9 @@
     "source": "LeetCode #342",
     "link": "https://leetcode.com/problems/power-of-four/",
     "description": "Given an integer n, return true if it is a power of four. Otherwise, return false. An integer n is a power of four if there exists an integer x such that n == 4^x.",
-    "constraints": ["-2^31 <= n <= 2^31 - 1"],
+    "constraints": [
+      "-2^31 <= n <= 2^31 - 1"
+    ],
     "difficulty": "Easy",
     "examples": [
       {
@@ -1051,7 +1085,9 @@
     "source": "LeetCode #326",
     "link": "https://leetcode.com/problems/power-of-three/",
     "description": "Given an integer n, return true if it is a power of three. Otherwise, return false. An integer n is a power of three if there exists an integer x such that n == 3^x.",
-    "constraints": ["-2^31 <= n <= 2^31 - 1"],
+    "constraints": [
+      "-2^31 <= n <= 2^31 - 1"
+    ],
     "difficulty": "Easy",
     "examples": [
       {
@@ -1069,7 +1105,10 @@
     "source": "LeetCode #90 / GFG",
     "link": "https://leetcode.com/problems/subsets-ii/",
     "description": "Given an integer array nums that may contain duplicates, return all possible subsets (the power set). The solution set must not contain duplicate subsets. Return the solution in any order.",
-    "constraints": ["1 <= nums.length <= 10", "-10 <= nums[i] <= 10"],
+    "constraints": [
+      "1 <= nums.length <= 10",
+      "-10 <= nums[i] <= 10"
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -1240,7 +1279,15 @@
           "minStack.top();",
           "minStack.getMin();"
         ],
-        "output": ["null", "null", "null", "-3", "null", "0", "-2"],
+        "output": [
+          "null",
+          "null",
+          "null",
+          "-3",
+          "null",
+          "0",
+          "-2"
+        ],
         "explanation": "After pushing -2, 0, and -3, the minimum element is -3. After popping -3, the top element becomes 0 and the minimum becomes -2."
       }
     ]
@@ -1250,7 +1297,6 @@
     "source": "LeetCode #590",
     "link": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/",
     "description": "Given the root of an n-ary tree, return the postorder traversal of its nodes' values.",
-
     "constraints": [
       "The number of nodes in the tree is in the range [0, 10^4].",
       "0 <= Node.val <= 10^4",
@@ -1295,7 +1341,10 @@
     "source": "LeetCode #503",
     "link": "https://leetcode.com/problems/next-greater-element-ii/",
     "description": "Given a circular integer array nums, return the next greater number for every element in nums. The next greater number of a number x is the first greater number to its traversal order next in the array (looping around). If there is no greater number, return -1.",
-    "constraints": ["1 <= nums.length <= 10^4", "-10^9 <= nums[i] <= 10^9"],
+    "constraints": [
+      "1 <= nums.length <= 10^4",
+      "-10^9 <= nums[i] <= 10^9"
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -1310,7 +1359,9 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/next-smaller-element/1",
     "description": "Given an array of integers, find the next smaller element for each element of the array. If no smaller element exists on the right side, return -1.",
-    "constraints": ["Constraints not available."],
+    "constraints": [
+      "Constraints not available."
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -1324,7 +1375,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/previous-greater-element/1",
     "description": "Given an array of integers, find the previous greater element for each element of the array. The previous greater element for an element is the first element to its left that is greater than it. If no such element exists, return -1.",
-    "constraints": ["1 ≤ arr.size() ≤ 10^5", "1 ≤ arr[i] ≤ 10^5"],
+    "constraints": [
+      "1 ≤ arr.size() ≤ 10^5",
+      "1 ≤ arr[i] ≤ 10^5"
+    ],
     "difficulty": "Easy",
     "examples": [
       {
@@ -1338,7 +1392,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/previous-smaller-element/1",
     "description": "Given an array of integers, find the previous smaller element for each element. The previous smaller element for an element is the first element to its left that is smaller. If no such element exists, return -1.",
-    "constraints": ["1 ≤ arr.size() ≤ 10^5", "1 ≤ arr[i] ≤ 10^5"],
+    "constraints": [
+      "1 ≤ arr.size() ≤ 10^5",
+      "1 ≤ arr[i] ≤ 10^5"
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -1352,7 +1409,11 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1",
     "description": "Given a queue of integers and a number k, reverse the order of the first k elements of the queue, leaving the other elements in the same relative order.",
-    "constraints": ["1<=q[i]<=10^5", "1<=q.size()<=10^5", "1<=k<=10^5"],
+    "constraints": [
+      "1<=q[i]<=10^5",
+      "1<=q.size()<=10^5",
+      "1<=k<=10^5"
+    ],
     "difficulty": "Easy",
     "examples": [
       {
@@ -1366,7 +1427,10 @@
     "source": "LeetCode #907",
     "link": "https://leetcode.com/problems/sum-of-subarray-minimums/",
     "description": "Given an array of integers arr, find the sum of min(b) for every (contiguous) subarray b of arr. Since the answer may be large, return the answer modulo 10^9 + 7.",
-    "constraints": ["1 <= arr.length <= 3 * 10^4", "1 <= arr[i] <= 3 * 10^4"],
+    "constraints": [
+      "1 <= arr.length <= 3 * 10^4",
+      "1 <= arr[i] <= 3 * 10^4"
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -1381,7 +1445,10 @@
     "source": "LeetCode #2104",
     "link": "https://leetcode.com/problems/sum-of-subarray-ranges/",
     "description": "Given an integer array nums, the range of a subarray is the difference between the largest and smallest element in the subarray. Return the sum of all subarray ranges of nums.",
-    "constraints": ["1 <= nums.length <= 1000", "-10^9 <= nums[i] <= 10^9"],
+    "constraints": [
+      "1 <= nums.length <= 1000",
+      "-10^9 <= nums[i] <= 10^9"
+    ],
     "difficulty": "Medium",
     "examples": [
       {
@@ -1558,7 +1625,9 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/avl-tree-insertion/1",
     "description": "Given a BST and a value to insert, insert the node while maintaining the AVL (Adelson-Velsky and Landis) self-balancing property. After each insertion, check the balance factor of each node and perform rotations (LL, RR, LR, RL) if necessary to keep the tree balanced.",
-    "constraints": ["1 ≤ N ≤ 2000"],
+    "constraints": [
+      "1 ≤ N ≤ 2000"
+    ],
     "difficulty": "Hard"
   },
   "All Nodes Distance K in Binary Tree.cpp": {
@@ -1670,7 +1739,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1",
     "description": "Given a binary tree, return the bottom view of the tree. The bottom view is the set of nodes visible when the tree is viewed from the bottom. For each horizontal distance from root, pick the last (deepest) node seen.",
-    "constraints": ["1 ≤ number of nodes ≤ 10^5", "1 ≤ node->data ≤ 10^5"],
+    "constraints": [
+      "1 ≤ number of nodes ≤ 10^5",
+      "1 ≤ node->data ≤ 10^5"
+    ],
     "difficulty": "Medium"
   },
   "Children Sum in a Binary Tree.cpp": {
@@ -1678,7 +1750,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/children-sum-parent/1",
     "description": "Given a binary tree, check whether all nodes satisfy the children sum property: for each node, the node's value must equal the sum of its children's values. Leaf nodes trivially satisfy this property.",
-    "constraints": ["1 ≤ number of nodes ≤ 10^5", "0 ≤ node->data ≤ 10^5"],
+    "constraints": [
+      "1 ≤ number of nodes ≤ 10^5",
+      "0 ≤ node->data ≤ 10^5"
+    ],
     "difficulty": "Medium"
   },
   "Construct Binary Search Tree from Preorder Traversal.cpp": {
@@ -1871,7 +1946,9 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/morris-traversal/1",
     "description": "Implement preorder traversal of a binary tree using Morris Traversal, which achieves O(1) space complexity (no recursion or explicit stack). The traversal visits root before the left and right subtrees by threading the tree.",
-    "constraints": ["Constraints not available."],
+    "constraints": [
+      "Constraints not available."
+    ],
     "difficulty": "Medium"
   },
   "Morris traversal for inroder": {
@@ -1879,7 +1956,10 @@
     "source": "GFG",
     "link": "https://www.geeksforgeeks.org/problems/inorder-traversal/1",
     "description": "Implement inorder traversal of a binary tree using Morris Traversal, which achieves O(1) space complexity. It works by temporarily modifying the tree structure using right pointers to thread the tree, then restoring it.",
-    "constraints": ["1 ≤ number of nodes ≤ 3*10^4", "0 ≤ node->data ≤ 10^5"],
+    "constraints": [
+      "1 ≤ number of nodes ≤ 3*10^4",
+      "0 ≤ node->data ≤ 10^5"
+    ],
     "difficulty": "Easy"
   },
   "Recover Binary Search Tree.cpp": {
@@ -1980,7 +2060,10 @@
     "source": "LeetCode #283",
     "link": "https://leetcode.com/problems/move-zeroes/",
     "description": "Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements. Do it in-place without making a copy of the array.",
-    "constraints": ["1 <= nums.length <= 10^4", "-2^31 <= nums[i] <= 2^31 - 1"],
+    "constraints": [
+      "1 <= nums.length <= 10^4",
+      "-2^31 <= nums[i] <= 2^31 - 1"
+    ],
     "difficulty": "Easy",
     "examples": [
       {
@@ -2116,7 +2199,9 @@
     "source": "LeetCode #9",
     "link": "https://leetcode.com/problems/palindrome-number/",
     "description": "Given an integer x, return true if x is a palindrome, and false otherwise. An integer is a palindrome when it reads the same backward as forward. Negative integers are not palindromes.",
-    "constraints": ["-2^31 <= x <= 2^31 - 1"],
+    "constraints": [
+      "-2^31 <= x <= 2^31 - 1"
+    ],
     "difficulty": "Easy",
     "examples": [
       {
@@ -2216,7 +2301,10 @@
     "source": "LeetCode #84",
     "link": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
     "description": "Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.",
-    "constraints": ["1 <= heights.length <= 10^5", "0 <= heights[i] <= 10^4"],
+    "constraints": [
+      "1 <= heights.length <= 10^5",
+      "0 <= heights[i] <= 10^4"
+    ],
     "difficulty": "Hard",
     "examples": [
       {
@@ -2913,18 +3001,16 @@
     ],
     "difficulty": "Easy",
     "examples": [
-      [
-        {
-          "input": "s = \"xyzzaz\"",
-          "output": "1",
-          "explanation": "The substrings of length 3 are \"xyz\", \"yzz\", \"zza\", and \"zaz\". Only \"xyz\" contains all distinct characters, so the answer is 1."
-        },
-        {
-          "input": "s = \"aababcabc\"",
-          "output": "4",
-          "explanation": "The substrings of length 3 are \"aab\", \"aba\", \"bab\", \"abc\", \"bca\", \"cab\", and \"abc\". The good substrings with all distinct characters are \"abc\", \"bca\", \"cab\", and \"abc\", so the answer is 4."
-        }
-      ]
+      {
+        "input": "s = \"xyzzaz\"",
+        "output": "1",
+        "explanation": "The substrings of length 3 are \"xyz\", \"yzz\", \"zza\", and \"zaz\". Only \"xyz\" contains all distinct characters, so the answer is 1."
+      },
+      {
+        "input": "s = \"aababcabc\"",
+        "output": "4",
+        "explanation": "The substrings of length 3 are \"aab\", \"aba\", \"bab\", \"abc\", \"bca\", \"cab\", and \"abc\". The good substrings with all distinct characters are \"abc\", \"bca\", \"cab\", and \"abc\", so the answer is 4."
+      }
     ]
   },
   "Two Sum II - Input Array Is Sorted.cpp": {
@@ -2941,25 +3027,21 @@
     ],
     "difficulty": "Medium",
     "examples": [
-      [
-        [
-          {
-            "input": "numbers = [2,7,11,15], target = 9",
-            "output": "[1,2]",
-            "explanation": "The sum of 2 and 7 is 9. Therefore, index1 = 1 and index2 = 2, so we return [1,2]."
-          },
-          {
-            "input": "numbers = [2,3,4], target = 6",
-            "output": "[1,3]",
-            "explanation": "The sum of 2 and 4 is 6. Therefore, index1 = 1 and index2 = 3, so we return [1,3]."
-          },
-          {
-            "input": "numbers = [-1,0], target = -1",
-            "output": "[1,2]",
-            "explanation": "The sum of -1 and 0 is -1. Therefore, index1 = 1 and index2 = 2, so we return [1,2]."
-          }
-        ]
-      ]
+      {
+        "input": "numbers = [2,7,11,15], target = 9",
+        "output": "[1,2]",
+        "explanation": "The sum of 2 and 7 is 9. Therefore, index1 = 1 and index2 = 2, so we return [1,2]."
+      },
+      {
+        "input": "numbers = [2,3,4], target = 6",
+        "output": "[1,3]",
+        "explanation": "The sum of 2 and 4 is 6. Therefore, index1 = 1 and index2 = 3, so we return [1,3]."
+      },
+      {
+        "input": "numbers = [-1,0], target = -1",
+        "output": "[1,2]",
+        "explanation": "The sum of -1 and 0 is -1. Therefore, index1 = 1 and index2 = 2, so we return [1,2]."
+      }
     ]
   },
   "Longest Nice Subarray.cpp": {
@@ -2967,23 +3049,22 @@
     "source": "LeetCode #2401",
     "link": "https://leetcode.com/problems/longest-nice-subarray/description/",
     "description": "You are given an array nums consisting of positive integers.\n We call a subarray of nums nice if the bitwise AND of every pair of elements that are in different positions in the subarray is equal to 0.\n Return the length of the longest nice subarray.\n A subarray is a contiguous part of an array.\n Note that subarrays of length 1 are always considered nice.",
-    "constraints": ["1 <= nums.length <= 10^5", "1 <= nums[i] <= 10^9"],
+    "constraints": [
+      "1 <= nums.length <= 10^5",
+      "1 <= nums[i] <= 10^9"
+    ],
     "difficulty": "Medium",
     "examples": [
-      [
-        [
-          {
-            "input": " nums = [1,3,8,48,10]",
-            "output": "3",
-            "explanation": " The longest nice subarray is [3,8,48]. This subarray satisfies the conditions:\n - 3 AND 8 = 0.\n - 3 AND 48 = 0.\n - 8 AND 48 = 0.\n It can be proven that no longer nice subarray can be obtained, so we return 3."
-          },
-          {
-            "input": "nums = [3,1,5,11,13]",
-            "output": "1",
-            "explanation": "The length of the longest nice subarray is 1. Any subarray of length 1 can be chosen."
-          }
-        ]
-      ]
+      {
+        "input": " nums = [1,3,8,48,10]",
+        "output": "3",
+        "explanation": " The longest nice subarray is [3,8,48]. This subarray satisfies the conditions:\n - 3 AND 8 = 0.\n - 3 AND 48 = 0.\n - 8 AND 48 = 0.\n It can be proven that no longer nice subarray can be obtained, so we return 3."
+      },
+      {
+        "input": "nums = [3,1,5,11,13]",
+        "output": "1",
+        "explanation": "The length of the longest nice subarray is 1. Any subarray of length 1 can be chosen."
+      }
     ]
   },
   "Repeated DNA Sequences.cpp": {
@@ -2997,23 +3078,19 @@
     ],
     "difficulty": "Medium",
     "examples": [
-      [
-        [
-          {
-            "input": "s = 'AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT'",
-            "output": "['AAAAACCCCC','CCCCCAAAAA']",
-            "explanation": "Not available"
-          },
-          {
-            "input": " s = 'AAAAAAAAAAAAA'",
-            "output": " ['AAAAAAAAAA']",
-            "explanation": "Not available"
-          }
-        ]
-      ]
+      {
+        "input": "s = 'AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT'",
+        "output": "['AAAAACCCCC','CCCCCAAAAA']",
+        "explanation": "Not available"
+      },
+      {
+        "input": " s = 'AAAAAAAAAAAAA'",
+        "output": " ['AAAAAAAAAA']",
+        "explanation": "Not available"
+      }
     ]
   },
-   "Reverse String.cpp": {
+  "Reverse String.cpp": {
     "title": "Reverse String",
     "source": "LeetCode #344",
     "link": "https://leetcode.com/problems/repeated-dna-sequences/description/",
@@ -3024,20 +3101,121 @@
     ],
     "difficulty": "Easy",
     "examples": [
-      [
-        [
-          {
-            "input": "s = s = [h,e,l,l,o]",
-            "output": "[o,l,l,e,h]",
-            "explanation": "Not available"
-          },
-          {
-            "input": " s = s = [H,a,n,n,a,h]",
-            "output": "  [h,a,n,n,a,H]",
-            "explanation": "Not available"
-          }
-        ]
-      ]
+      {
+        "input": "s = s = [h,e,l,l,o]",
+        "output": "[o,l,l,e,h]",
+        "explanation": "Not available"
+      },
+      {
+        "input": " s = s = [H,a,n,n,a,h]",
+        "output": "  [h,a,n,n,a,H]",
+        "explanation": "Not available"
+      }
+    ]
+  },
+  "Climbing Stairs.cpp": {
+    "title": "Climbing Stairs",
+    "source": "LeetCode #344",
+    "link": "https://leetcode.com/problems/climbing-stairs/description/",
+    "description": "You are climbing a staircase. It takes n steps to reach the top.\n Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?",
+    "constraints": [
+      "1 <= n <= 45"
+    ],
+    "difficulty": "Easy",
+    "examples": [
+      {
+        "input": "n = 2",
+        "output": "2",
+        "explanation": "There are two ways to climb to the top.\n1. 1 step + 1 step\n2. 2 steps"
+      },
+      {
+        "input": "n = 3",
+        "output": "3",
+        "explanation": "There are three ways to climb to the top.\n1. 1 step + 1 step + 1 step\n2. 1 step + 2 steps\n3. 2 steps + 1 step"
+      }
+    ]
+  },
+  "All Subsequences of a String.cpp": {
+    "title": "All Subsequences of a String",
+    "source": "GFG #4302",
+    "link": "https://www.geeksforgeeks.org/problems/power-set4302/1",
+    "description": "Given a string s, generate all possible subsequences of the string (including the empty subsequence) and return them in lexicographical order.  \n A subsequence is obtained by deleting zero or more characters from the string without changing the relative order of the remaining characters",
+    "constraints": [
+      "1 ≤ n ≤ 16",
+      "s consists of lowercase English letters."
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "s = \"abc\"",
+        "output": "[\"\", \"a\", \"ab\", \"abc\", \"ac\", \"b\", \"bc\", \"c\"]",
+        "explanation": "There are a total of 8 subsequences for the given string (including the empty subsequence). These subsequences are listed above in lexicographical order."
+      },
+      {
+        "input": "s = \"aa\"",
+        "output": "[\"\", \"a\", \"a\", \"aa\"]",
+        "explanation": "The subsequences include the empty subsequence and duplicate subsequences formed due to repeated characters."
+      }
+    ]
+  },
+  "Count Good Numbers.cpp": {
+    "title": "Count Good Numbers",
+    "source": "LeetCode #1922",
+    "link": "https://leetcode.com/problems/count-good-numbers/description/",
+    "description": "A digit string is good if the digits at even indices are even (0, 2, 4, 6, 8) and the digits at odd indices are prime (2, 3, 5, 7). Given an integer n, return the total number of good digit strings of length n. Since the answer may be very large, return it modulo 10^9 + 7.",
+    "constraints": [
+      "1 ≤ n ≤ 10^15"
+    ],
+    "difficulty": "Medium",
+    "examples": [
+      {
+        "input": "n = 1",
+        "output": "5",
+        "explanation": "The good numbers of length 1 are \"0\", \"2\", \"4\", \"6\", and \"8\"."
+      },
+      {
+        "input": "n = 4",
+        "output": "400",
+        "explanation": "There are 400 good digit strings of length 4."
+      },
+      {
+        "input": "n = 50",
+        "output": "564908303",
+        "explanation": "The answer is returned modulo 10^9 + 7."
+      }
+    ]
+  },
+  "Unique 3-Digit Even Numbers.cpp": {
+    "title": "Unique 3-Digit Even Numbers",
+    "source": "LeetCode #3483",
+    "link": "https://leetcode.com/problems/unique-3-digit-even-numbers/description/",
+    "description": "Given an array of digits, determine the number of distinct three-digit even numbers that can be formed. Each digit can be used at most once per number (unless it appears multiple times in the array), and the number cannot have leading zeros.",
+    "constraints": [
+      "3 ≤ digits.length ≤ 10",
+      "0 ≤ digits[i] ≤ 9"
+    ],
+    "difficulty": "Easy",
+    "examples": [
+      {
+        "input": "digits = [1,2,3,4]",
+        "output": "12",
+        "explanation": "The 12 distinct three-digit even numbers are 124, 132, 134, 142, 214, 234, 312, 314, 324, 342, 412, and 432."
+      },
+      {
+        "input": "digits = [0,2,2]",
+        "output": "2",
+        "explanation": "The only valid three-digit even numbers are 202 and 220. The digit 2 can be used twice because it appears twice in the array."
+      },
+      {
+        "input": "digits = [6,6,6]",
+        "output": "1",
+        "explanation": "Only the number 666 can be formed."
+      },
+      {
+        "input": "digits = [1,3,5]",
+        "output": "0",
+        "explanation": "No three-digit even numbers can be formed because there are no even digits available for the last position."
+      }
     ]
   }
 }
