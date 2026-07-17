@@ -2545,7 +2545,7 @@
         "explanation": "There are no odd numbers in the array."
       },
       {
-        "input": "nums = [2,2,2,1,2,2,1,2,2,2], k = 20",
+        "input": "nums = [2,2,2,1,2,2,1,2,2,2], k = 2",
         "output": "16",
         "explanation": ""
       }
