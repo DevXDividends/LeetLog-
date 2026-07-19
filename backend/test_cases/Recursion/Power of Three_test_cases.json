@@ -1,0 +1,145 @@
+{
+  "problem_key": "Power of Three.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "27"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "0"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "9"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "-1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "-27"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "6"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1162261467"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "387420489"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2147483647"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "-2147483648"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2147483646"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "243"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "729"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "100"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "59049"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "177147"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "999999999"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}

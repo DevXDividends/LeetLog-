@@ -1,0 +1,145 @@
+{
+  "problem_key": "All Subsequences of a String.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "abc"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "aa"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "a"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "ab"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "z"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aaa"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aaaa"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "abab"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aaaaaaaaaaaaaaaa"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "abcabcabcabcabca"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aaaaaaaaaaaaaaab"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "xyz"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aba"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "az"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "cgjchdheja"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "cddddddbbcda"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "ababababcdcdcdcd"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "abcdefghijklmnop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "bbbbbbbb"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "zzzzzzzzzzzzzzzz"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "problem_key": "Subsets.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "3\n1 2 3"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n5"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "2\n1 2"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "3\n-1 0 1"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n-10"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n10"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2\n-10 10"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "10\n1 2 3 4 5 6 7 8 9 10"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "10\n-10 -8 -5 -2 0 2 5 8 9 10"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "10\n-1 -2 -3 -4 -5 -6 -7 -8 -9 -10"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "10\n10 9 8 7 6 5 4 3 2 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "5\n-2 -1 0 3 7"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "6\n1 -1 2 -2 3 -3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "4\n0 1 -1 2"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3\n-1 -2 -3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2\n7 8"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "10\n1 2 3 4 5 6 7 8 9 -1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n-7 4 10 -6 -3 5 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "10\n-10 4 -6 0 3 1 9 -1 -4 -8"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "8\n-10 -4 -6 -5 3 -1 7 9"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}

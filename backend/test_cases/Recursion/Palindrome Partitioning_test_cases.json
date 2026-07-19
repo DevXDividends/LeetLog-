@@ -1,0 +1,145 @@
+{
+  "problem_key": "Palindrome Partitioning.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "aab"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "a"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "aba"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "abc"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "z"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aa"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "ab"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "abba"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "abcba"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aaaaaaaaaaaaaaaa"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "abcdefghijklmnop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "abababababababab"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "pxyzzyxq"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aaaa"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "abccba"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "ccbbcabcbb"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "bbabaabaabbabb"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "racecar"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "aabb"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "ccaaabcbbaacabcc"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}
