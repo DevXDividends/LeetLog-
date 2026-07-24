@@ -1,0 +1,145 @@
+{
+  "problem_key": "Increasing order search Tree.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "13\n5 3 6 2 4 null 8 1 null null null 7 9"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n5"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "3\n2 1 3"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "4\n3 2 null 1"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "8\n0 null 10 5 20 null null 15"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "8\n985 980 990 null null null 1000 995"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n0"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n1000"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "5\n1 null 2 null 3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n4 2 6 1 3 5 7"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "9\n104 100 105 null 102 null null 101 103"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "189\n76 32 93 9 42 79 98 1 31 34 53 77 82 97 99 0 4 18 null 33 41 45 75 null 78 80 84 95 null null null null null 2 5 16 30 null null 36 null 43 46 62 null null null null 81 83 91 94 96 null 3 null 6 15 17 25 null 35 37 null 44 null 50 54 64 null null null null 90 92 null null null null null null null 8 14 null null null 20 26 null null null 38 null null 49 51 null 58 63 71 85 null null null 7 null 13 null 19 24 null 29 null 40 47 null null 52 55 60 null null 68 73 null 89 null null 12 null null null 21 null 27 null 39 null null 48 null null null 56 59 61 65 69 72 74 87 null 11 null null 23 null 28 null null null null null 57 null null null null null 66 null 70 null null null null 86 88 10 null 22 null null null null null null 67"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "198\n99 98 null 97 null 96 null 95 null 94 null 93 null 92 null 91 null 90 null 89 null 88 null 87 null 86 null 85 null 84 null 83 null 82 null 81 null 80 null 79 null 78 null 77 null 76 null 75 null 74 null 73 null 72 null 71 null 70 null 69 null 68 null 67 null 66 null 65 null 64 null 63 null 62 null 61 null 60 null 59 null 58 null 57 null 56 null 55 null 54 null 53 null 52 null 51 null 50 null 49 null 48 null 47 null 46 null 45 null 44 null 43 null 42 null 41 null 40 null 39 null 38 null 37 null 36 null 35 null 34 null 33 null 32 null 31 null 30 null 29 null 28 null 27 null 26 null 25 null 24 null 23 null 22 null 21 null 20 null 19 null 18 null 17 null 16 null 15 null 14 null 13 null 12 null 11 null 10 null 9 null 8 null 7 null 6 null 5 null 4 null 3 null 2 null 1 null 0"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "199\n0 null 1 null 2 null 3 null 4 null 5 null 6 null 7 null 8 null 9 null 10 null 11 null 12 null 13 null 14 null 15 null 16 null 17 null 18 null 19 null 20 null 21 null 22 null 23 null 24 null 25 null 26 null 27 null 28 null 29 null 30 null 31 null 32 null 33 null 34 null 35 null 36 null 37 null 38 null 39 null 40 null 41 null 42 null 43 null 44 null 45 null 46 null 47 null 48 null 49 null 50 null 51 null 52 null 53 null 54 null 55 null 56 null 57 null 58 null 59 null 60 null 61 null 62 null 63 null 64 null 65 null 66 null 67 null 68 null 69 null 70 null 71 null 72 null 73 null 74 null 75 null 76 null 77 null 78 null 79 null 80 null 81 null 82 null 83 null 84 null 85 null 86 null 87 null 88 null 89 null 90 null 91 null 92 null 93 null 94 null 95 null 96 null 97 null 98 null 99"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "97\n86 3 909 null 55 536 916 null 63 395 737 null 992 null null 305 479 650 782 956 null 285 364 476 526 540 659 765 858 926 962 192 null null 379 448 478 511 null null 618 null null null null 857 null null 939 null null 88 223 null null 429 null null null null null 551 647 795 null null null null 98 222 268 405 null null 594 636 null null 844 null 186 null null null null null 409 565 null null null null null null null null 421"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "78\n466 120 795 116 389 778 869 72 null 280 403 581 null null 999 58 null 153 377 null null 579 665 null null null null 134 209 305 386 523 null 610 688 null null 199 255 null null null null 478 null null 635 674 704 198 null null null null 491 619 null null 681 702 748 165 null null null null null null null null null null 754 null null null 759 755"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2\n5 3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "14\n996 990 998 null 993 997 999 992 995 null null null 1000 991"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "13\n7 3 10 0 5 8 null null 2 4 6 null 9"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "154\n185 75 392 20 123 296 409 15 54 97 166 218 353 395 918 null null 53 null 78 108 127 178 191 229 346 null null null 520 962 28 null null null null null null 141 173 null null null 221 279 null 352 518 877 946 987 null null null null null null null null 276 282 null null 420 null 683 889 null null 964 null 231 null null null null 439 641 688 null 893 null 965 null 235 null 505 592 643 686 807 null 897 null null null null 502 null 549 635 642 664 null null 692 857 null null 501 null 544 575 603 null null null 659 null null 740 822 861 440 null null null null null 600 null null null 706 787 null 824 null null null 482 null null null 733 774 null null null 452 484 null null 747"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}

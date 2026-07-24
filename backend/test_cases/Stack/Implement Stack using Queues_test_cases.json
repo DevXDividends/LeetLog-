@@ -1,0 +1,145 @@
+{
+  "problem_key": "Implement Stack using Queues.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "4\npush 1\npush 2\ntop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "6\npush 1\npush 2\npush 3\npop\npop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\nempty"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "2\npush 5\npop"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "2\npush 1\nempty"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "5\nempty\npush 1\nempty\npop\nempty"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2\npush 1\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2\npush 9\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "6\npush 1\npush 2\npop\npush 3\npop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "6\npush 1\npush 2\ntop\ntop\npop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "98\npush 3\npush 5\npush 2\npush 7\npush 1\npush 3\npush 1\npush 3\npush 9\npush 3\npush 3\npush 6\npush 9\npush 1\npush 5\npush 6\npush 2\npush 8\npush 1\npush 8\npush 5\npush 6\npush 1\npush 1\npush 7\npush 7\npush 1\npush 1\npush 5\npush 8\npush 5\npush 4\npush 3\npush 3\npush 3\npush 3\npush 9\npush 8\npush 4\npush 4\npush 3\npush 9\npush 8\npush 9\npush 2\npush 8\npush 8\npush 3\npush 2\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "50\npush 2\npop\npush 3\npop\npush 4\npop\npush 5\npop\npush 6\npop\npush 7\npop\npush 8\npop\npush 9\npop\npush 1\npop\npush 2\npop\npush 3\npop\npush 4\npop\npush 5\npop\npush 6\npop\npush 7\npop\npush 8\npop\npush 9\npop\npush 1\npop\npush 2\npop\npush 3\npop\npush 4\npop\npush 5\npop\npush 6\npop\npush 7\npop\npush 8\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "16\npush 1\npush 2\npush 3\ntop\ntop\ntop\ntop\ntop\ntop\ntop\ntop\ntop\ntop\npop\npop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "10\npush 5\npush 5\npush 5\npush 5\npush 5\npop\npop\npop\npop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "8\nempty\npush 3\nempty\npush 4\npop\nempty\npop\nempty"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "15\npush 1\npush 2\npush 3\npush 4\npush 5\ntop\ntop\ntop\ntop\ntop\npop\npop\npop\npop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "30\npush 7\ntop\ntop\ntop\nempty\npush 3\npop\npop\npush 4\nempty\ntop\nempty\nempty\npop\npush 1\ntop\npop\nempty\npush 3\npush 8\npush 2\ntop\nempty\npop\ntop\ntop\nempty\npop\ntop\ntop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "99\nempty\npush 2\nempty\nempty\npop\npush 8\ntop\nempty\nempty\nempty\ntop\nempty\ntop\ntop\nempty\npush 8\ntop\ntop\npop\npush 1\nempty\ntop\nempty\ntop\nempty\ntop\npop\ntop\npush 4\ntop\npop\npush 5\nempty\ntop\nempty\ntop\npop\npop\npush 7\ntop\npop\npush 3\npop\nempty\npush 6\npop\npush 6\ntop\nempty\nempty\npush 5\ntop\nempty\ntop\ntop\npop\ntop\npush 1\npush 2\ntop\nempty\nempty\npop\npush 2\npush 3\npush 9\ntop\nempty\npush 3\npop\npush 8\npop\npush 8\npop\npush 9\npush 3\npop\nempty\npush 8\npush 6\nempty\npush 3\nempty\nempty\nempty\npush 9\nempty\npop\npop\ntop\npop\npop\npop\nempty\npop\npop\npush 8\npush 5\npush 8"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "18\npush 1\npush 2\npush 3\npush 4\npush 5\npush 6\npush 7\npush 8\npush 9\npop\npop\npop\npop\npop\npop\npop\npop\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "50\npush 1\npop\npush 2\npop\npush 3\npop\npush 4\npop\npush 5\npop\npush 6\npop\npush 7\npop\npush 8\npop\npush 9\npop\npush 1\npop\npush 2\npop\npush 3\npop\npush 4\npop\npush 5\npop\npush 6\npop\npush 7\npop\npush 8\npop\npush 9\npop\npush 1\npop\npush 2\npop\npush 3\npop\npush 4\npop\npush 5\npop\npush 6\npop\npush 7\npop"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}
