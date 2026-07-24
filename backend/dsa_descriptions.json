@@ -2114,17 +2114,24 @@
       }
     ]
   },
-  "Design HashMap.cpp": {
-    "title": "Design HashMap",
-    "source": "LeetCode #706",
-    "link": "https://leetcode.com/problems/design-hashmap/",
-    "description": "Design a HashMap without using any built-in hash table libraries. Implement put(key, value), get(key), and remove(key) operations. All keys and values are non-negative integers.",
-    "constraints": [
-      "0 <= key, value <= 10^6",
-      "At most 104 calls will be made to put, get, and remove."
-    ],
-    "difficulty": "Easy"
-  },
+      "Design HashMap.cpp": {
+        "title": "Design HashMap",
+        "source": "LeetCode #706",
+        "link": "https://leetcode.com/problems/design-hashmap/",
+        "description": "Design a HashMap without using any built-in hash table libraries. Implement put(key, value), get(key), and remove(key) operations. All keys and values are non-negative integers.",
+        "constraints": [
+          "0 <= key, value <= 10^6",
+          "At most 104 calls will be made to put, get, and remove."
+        ],
+        "difficulty": "Easy",
+        "examples": [
+          {
+            "input": "Not available",
+            "output": "Not available",
+            "explanation": "Not available"
+          }
+        ]
+      },
   "Design HashSet.cpp": {
     "title": "Design HashSet",
     "source": "LeetCode #705",
@@ -2134,7 +2141,14 @@
       "0 <= key <= 10^6",
       "At most 10^4 calls will be made to add, remove, and contains."
     ],
-    "difficulty": "Easy"
+    "difficulty": "Easy",
+     "examples": [
+          {
+            "input": "Not available",
+            "output": "Not available",
+            "explanation": "Not available"
+          }
+        ]
   },
   "Find Pair Given Difference.cpp": {
     "title": "Find Pair Given Difference",
