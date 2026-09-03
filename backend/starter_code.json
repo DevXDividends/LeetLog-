@@ -196,13 +196,13 @@
   },
   "Flattening a Linked List.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    Node *flatten(Node *root) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nstruct Node {\n    int data;\n    Node* next;\n    Node* bottom;\n    Node(int x) { data = x; next = nullptr; bottom = nullptr; }\n};\n\nNode* buildNodeList(vector<int>& vals) {\n    Node dummy(0);\n    Node* tail = &dummy;\n    for (int v : vals) {\n        tail->next = new Node(v);\n        tail = tail->next;\n    }\n    return dummy.next;\n}\n\nvoid printNodeList(Node* head) {\n    while (head) {\n        cout << head->data;\n        if (head->next) cout << \" \";\n        head = head->next;\n    }\n}\n\nint main() {\n    int root_n; cin >> root_n;\n    vector<int> root_vals(root_n);\n    for (int i = 0; i < root_n; i++) cin >> root_vals[i];\n    Node* root = buildNodeList(root_vals);\n    \n    Solution obj;\n    auto ans = obj.flatten(root);\n    printNodeList(ans);\n}"
+    "template_code": "class Solution {\n  public:\n    Node *flatten(Node *root) {\n\n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nclass Node {\npublic:\n    int data;\n    Node* next;\n    Node* bottom;\n    Node(int x) { data = x; next = nullptr; bottom = nullptr; }\n};\n\nNode* buildSubList(vector<int>& vals) {\n    Node dummy(0);\n    Node* tail = &dummy;\n    for (int v : vals) {\n        tail->bottom = new Node(v);\n        tail = tail->bottom;\n    }\n    return dummy.bottom;\n}\n\nvoid printFlattened(Node* head) {\n    while (head) {\n        cout << head->data;\n        if (head->bottom) cout << \" \";\n        head = head->bottom;\n    }\n}\n\nint main() {\n    int numLists; cin >> numLists;\n    vector<Node*> lists(numLists);\n    for (int i = 0; i < numLists; i++) {\n        int len; cin >> len;\n        vector<int> vals(len);\n        for (int j = 0; j < len; j++) cin >> vals[j];\n        lists[i] = buildSubList(vals);\n    }\n    Node* prevTail = nullptr;\n    Node* root = nullptr;\n    for (int i = 0; i < numLists; i++) {\n        if (!lists[i]) continue;\n        if (!root) root = lists[i];\n        if (prevTail) prevTail->next = lists[i];\n        prevTail = lists[i];\n    }\n\n    Solution obj;\n    auto ans = obj.flatten(root);\n    printFlattened(ans);\n}"
   },
   "Intersection of 2 linked list.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nstruct ListNode {\n    int val;\n    ListNode *next;\n    ListNode() : val(0), next(nullptr) {}\n    ListNode(int x) : val(x), next(nullptr) {}\n    ListNode(int x, ListNode *next) : val(x), next(next) {}\n};\n\nListNode* buildList(vector<int>& vals) {\n    ListNode dummy(0);\n    ListNode* tail = &dummy;\n    for (int v : vals) {\n        tail->next = new ListNode(v);\n        tail = tail->next;\n    }\n    return dummy.next;\n}\n\nvoid printList(ListNode* head) {\n    while (head) {\n        cout << head->val;\n        if (head->next) cout << \" \";\n        head = head->next;\n    }\n}\n\nint main() {\n    int headA_n; cin >> headA_n;\n    vector<int> headA_vals(headA_n);\n    for (int i = 0; i < headA_n; i++) cin >> headA_vals[i];\n    ListNode* headA = buildList(headA_vals);\n    int headB_n; cin >> headB_n;\n    vector<int> headB_vals(headB_n);\n    for (int i = 0; i < headB_n; i++) cin >> headB_vals[i];\n    ListNode* headB = buildList(headB_vals);\n    \n    Solution obj;\n    auto ans = obj.getIntersectionNode(headA, headB);\n    printList(ans);\n}"
+    "template_code": "class Solution {\npublic:\n    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {\n\n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nstruct ListNode {\n    int val;\n    ListNode *next;\n    ListNode(int x) : val(x), next(nullptr) {}\n};\n\nint main() {\n    int skipA, skipB, commonLen;\n    cin >> skipA >> skipB >> commonLen;\n    vector<int> aOnly(skipA), bOnly(skipB), common(commonLen);\n    for (int i = 0; i < skipA; i++) cin >> aOnly[i];\n    for (int i = 0; i < skipB; i++) cin >> bOnly[i];\n    for (int i = 0; i < commonLen; i++) cin >> common[i];\n\n    ListNode* commonHead = nullptr;\n    {\n        ListNode dummy(0);\n        ListNode* tail = &dummy;\n        for (int v : common) { tail->next = new ListNode(v); tail = tail->next; }\n        commonHead = dummy.next;\n    }\n    ListNode* headA = nullptr;\n    {\n        ListNode dummy(0);\n        ListNode* tail = &dummy;\n        for (int v : aOnly) { tail->next = new ListNode(v); tail = tail->next; }\n        tail->next = commonHead;\n        headA = dummy.next ? dummy.next : commonHead;\n    }\n    ListNode* headB = nullptr;\n    {\n        ListNode dummy(0);\n        ListNode* tail = &dummy;\n        for (int v : bOnly) { tail->next = new ListNode(v); tail = tail->next; }\n        tail->next = commonHead;\n        headB = dummy.next ? dummy.next : commonHead;\n    }\n\n    Solution obj;\n    auto ans = obj.getIntersectionNode(headA, headB);\n    cout << (ans ? ans->val : -1);\n}"
   },
   "Linked List Cycle II.cpp": {
     "language": "cpp",
@@ -326,7 +326,7 @@
   },
   "Power of Four.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    bool isPowerOfFour(int n) {\n        \n    }\n};",
+    "template_code": "class Solution {\npublic:\n    bool isPowerOfFour(int n) {\n\n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n    \n    Solution obj;\n    auto ans = obj.isPowerOfFour(n);\n    cout << (ans ? \"true\" : \"false\");\n}"
   },
   "Power of Three.cpp": {
@@ -341,7 +341,7 @@
   },
   "Subset Sum Problem.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    bool isSubsetSum(vector<int>& arr, int sum) {\n        \n    }\n};",
+    "template_code": "class Solution {\npublic:\n    bool isSubsetSum(vector<int>& arr, int sum) {\n\n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int arr_n; cin >> arr_n;\n    vector<int> arr(arr_n);\n    for (int i = 0; i < arr_n; i++) cin >> arr[i];\n    int sum;\n    cin >> sum;\n    \n    Solution obj;\n    auto ans = obj.isSubsetSum(arr, sum);\n    cout << (ans ? \"true\" : \"false\");\n}"
   },
   "Subsets.cpp": {
@@ -401,7 +401,7 @@
   },
   "Max Sum Subarray of size K.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    int maxSubarraySum(vector<int>& arr, int k) {\n        \n    }\n};",
+    "template_code": "class Solution {\npublic:\n    long long maxSubarraySum(vector<int>& arr, int k) {\n\n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int arr_n; cin >> arr_n;\n    vector<int> arr(arr_n);\n    for (int i = 0; i < arr_n; i++) cin >> arr[i];\n    int k;\n    cin >> k;\n    \n    Solution obj;\n    auto ans = obj.maxSubarraySum(arr, k);\n    cout << ans;\n}"
   },
   "Maximum Points You Can Obtain from Cards.cpp": {
@@ -881,7 +881,7 @@
   },
   "Count Good Numbers.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    int countGoodNumbers(long long n) {\n        \n    }\n};",
+    "template_code": "class Solution {\npublic:\n    int countGoodNumbers(long long n) {\n\n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    long long n;\n    cin >> n;\n    \n    Solution obj;\n    auto ans = obj.countGoodNumbers(n);\n    cout << ans;\n}"
   },
   "Unique 3-Digit Even Numbers.cpp": {
