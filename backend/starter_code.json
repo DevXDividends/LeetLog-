@@ -541,37 +541,37 @@
   },
   "Add-Binary.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    string addBinary(string a, string b) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string a;\n    cin >> a;\n    string b;\n    cin >> b;\n    \n    Solution obj;\n    auto ans = obj.addBinary(a, b);\n    cout << ans;\n}"
+    "template_code": "class Solution {\npublic:\n    string addBinary(string a, string b) {\n\n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string a, b;\n    cin >> a >> b;\n    \n    Solution obj;\n    auto ans = obj.addBinary(a, b);\n    cout << ans;\n}"
   },
   "Find-the-Index-of-the-First-Occurrence-in-a-String.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    int strStr(string haystack, string needle) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string haystack;\n    cin >> haystack;\n    string needle;\n    cin >> needle;\n    \n    Solution obj;\n    auto ans = obj.strStr(haystack, needle);\n    cout << ans;\n}"
+    "template_code": "class Solution {\npublic:\n    int strStr(string haystack, string needle) {\n\n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string haystack, needle;\n    cin >> haystack >> needle;\n    \n    Solution obj;\n    auto ans = obj.strStr(haystack, needle);\n    cout << ans;\n}"
   },
   "Length-of-Last-Word.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    int lengthOfLastWord(string s) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    \n    Solution obj;\n    auto ans = obj.lengthOfLastWord(s);\n    cout << ans;\n}"
+    "template_code": "class Solution {\npublic:\n    int lengthOfLastWord(string s) {\n\n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    getline(cin, s);\n    \n    Solution obj;\n    auto ans = obj.lengthOfLastWord(s);\n    cout << ans;\n}"
   },
   "Longest-common-prefix.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    string longestCommonPrefix(vector<string>& strs) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int strs_n; cin >> strs_n;\n    vector<string> strs(strs_n);\n    for (int i = 0; i < strs_n; i++) cin >> strs[i];\n    \n    Solution obj;\n    auto ans = obj.longestCommonPrefix(strs);\n    cout << ans;\n}"
+    "template_code": "class Solution {\npublic:\n    string longestCommonPrefix(vector<string>& strs) {\n\n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int n; cin >> n;\n    vector<string> strs(n);\n    for (int i = 0; i < n; i++) cin >> strs[i];\n    \n    Solution obj;\n    auto ans = obj.longestCommonPrefix(strs);\n    cout << ans;\n}"
   },
   "Roman-to-Integer.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    int romanToInt(string s) {\n        \n    }\n};",
+    "template_code": "class Solution {\npublic:\n    int romanToInt(string s) {\n\n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    \n    Solution obj;\n    auto ans = obj.romanToInt(s);\n    cout << ans;\n}"
   },
   "Valid-Palindrome.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    bool isPalindrome(string s) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    \n    Solution obj;\n    auto ans = obj.isPalindrome(s);\n    cout << (ans ? \"true\" : \"false\");\n}"
+    "template_code": "class Solution {\npublic:\n    bool isPalindrome(string s) {\n\n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    getline(cin, s);\n    \n    Solution obj;\n    auto ans = obj.isPalindrome(s);\n    cout << (ans ? \"true\" : \"false\");\n}"
   },
   "Valid-Parentheses.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    bool isValid(string s) {\n        \n    }\n};",
+    "template_code": "class Solution {\npublic:\n    bool check(char first, char sec) {\n\n    }\n    bool isValid(string s) {\n\n    }\n};",
     "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string s;\n    cin >> s;\n    \n    Solution obj;\n    auto ans = obj.isValid(s);\n    cout << (ans ? \"true\" : \"false\");\n}"
   },
   ". Binary Tree Postorder Traversal.cpp": {
@@ -866,8 +866,8 @@
   },
   "Reverse String.cpp": {
     "language": "cpp",
-    "template_code": "class Solution {\npublic:\n    void reverseString(vector<char>& s) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int s_n; cin >> s_n;\n    vector<char> s(s_n);\n    for (int i = 0; i < s_n; i++) cin >> s[i];\n    \n    Solution obj;\n    obj.reverseString(s);\n    for (size_t i = 0; i < s.size(); i++) cout << s[i] << \" \";\n    cout << \"\\n\";\n}"
+    "template_code": "class Solution {\npublic:\n    void recurseRev(vector<char>& s, int i, int j) {\n\n    }\n    void reverseString(vector<char>& s) {\n\n    }\n};",
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    string line;\n    getline(cin, line);\n    vector<char> s(line.begin(), line.end());\n    \n    Solution obj;\n    obj.reverseString(s);\n    for (size_t i = 0; i < s.size(); i++) cout << s[i];\n}"
   },
   "Climbing Stairs.cpp": {
     "language": "cpp",
