@@ -1,0 +1,145 @@
+{
+  "problem_key": "Roman-to-Integer.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "III"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "MCMXCIV"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "I"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "LVIII"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "V"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "XLIX"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "IV"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "IX"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "XL"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "XC"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "CD"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "CM"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "II"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "MMMCMXCVIII"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "MDCCLXXVI"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "CDXLIV"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "DCLXI"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "CDXXXV"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "CCLX"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "MMXXIV"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}
