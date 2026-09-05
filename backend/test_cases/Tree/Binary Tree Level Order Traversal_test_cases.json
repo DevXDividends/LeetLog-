@@ -1,0 +1,145 @@
+{
+  "problem_key": "Binary Tree Level Order Traversal.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "3\n1 null 2"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "0\n"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n1"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "3\n1 2 3"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n0"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n-1000"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n1000"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "8\n5 4 null 3 null 2 null 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "9\n1 null 2 null 3 null 4 null 5"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n1 2 3 4 5 null 6"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "92\n-161 28 -892 -124 776 null null -399 -293 663 null 526 null -149 -14 null null null -200 224 127 -901 400 155 -465 null null 440 null 893 -204 null -849 -456 -732 703 -272 null null null -802 null null null null 279 -413 -31 null 242 -244 87 null null null null null -319 -97 -429 39 null -749 731 null null null 71 null -332 -984 null null null -394 null 316 null 499 null 69 null null 524 null -495 null null 959 null null -972"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "98\n50 49 null 48 null 47 null 46 null 45 null 44 null 43 null 42 null 41 null 40 null 39 null 38 null 37 null 36 null 35 null 34 null 33 null 32 null 31 null 30 null 29 null 28 null 27 null 26 null 25 null 24 null 23 null 22 null 21 null 20 null 19 null 18 null 17 null 16 null 15 null 14 null 13 null 12 null 11 null 10 null 9 null 8 null 7 null 6 null 5 null 4 null 3 null 2 null 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "99\n1 null 2 null 3 null 4 null 5 null 6 null 7 null 8 null 9 null 10 null 11 null 12 null 13 null 14 null 15 null 16 null 17 null 18 null 19 null 20 null 21 null 22 null 23 null 24 null 25 null 26 null 27 null 28 null 29 null 30 null 31 null 32 null 33 null 34 null 35 null 36 null 37 null 38 null 39 null 40 null 41 null 42 null 43 null 44 null 45 null 46 null 47 null 48 null 49 null 50"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3997\n822 -257 860 643 979 -130 -230 null -632 69 368 728 -746 -338 658 -178 -177 592 688 -852 699 null null null -375 -174 -381 -247 -113 732 889 null 349 -244 735 -181 -739 -142 121 -417 null 989 935 -3 -790 -654 843 146 -941 105 -37 373 334 645 5 null -597 -510 474 485 486 785 702 -987 -737 -457 -712 625 null 741 -67 null null null null 189 -526 866 -796 42 -255 -524 -280 685 -864 951 -399 -301 -494 299 290 null -359 -274 -517 -14 263 -48 505 null null -974 -903 -394 null 190 239 null null 877 -316 null null -750 643 -940 -418 824 748 -739 -312 -828 null 640 -272 752 984 -368 206 -823 -238 null null 429 451 -919 330 645 -900 -299 -877 577 -336 890 659 null -110 -457 -362 95 -137 962 -555 -94 -641 -599 249 -469 309 null null 999 868 987 -214 null null 76 null -696 -122 476 827 793 -134 534 -905 54 7 -357 138 -882 -938 null -553 null null 206 3 null -835 null 838 null -936 -852 273 -380 -58 600 -533 623 -98 null null 810 599 -657 34 -364 null -950 224 105 272 985 null 704 -381 null 413 572 -384 248 399 735 -279 578 -704 -128 996 -511 800 337 null -276 -614 704 -709 null -121 -537 675 539 455 293 886 945 -673 -160 726 null -113 828 392 -998 -377 721 -692 null -200 915 83 -630 196 962 -827 735 883 826 -348 -473 620 208 -690 552 -255 -933 817 null null null 393 null null 329 330 716 null null null null null null -136 null null 963 -810 null 11 329 null -346 583 774 797 null 789 null null -648 -298 null null null null null 679 null null 417 603 -52 -733 -513 270 -150 536 279 -228 -639 null -866 -874 -370 748 -287 null -557 null 182 null -605 null 780 null 167 null -96 905 848 673 null -552 null null -408 673 -179 -591 -228 null -181 -185 -183 -335 -912 326 null null -469 261 483 null 788 null 820 -450 306 -781 76 null 1000 null 878 -455 859 -302 -219 -915 753 169 -842 502 920 524 927 null -362 153 -849 -78 -413 -745 -178 104 null -689 728 136 null -47 200 -876 -148 618 null null 998 null -127 -543 null -134 171 191 430 -174 null null -497 290 -831 -941 null 817 375 399 -603 -548 -484 -817 -771 -678 771 -400 943 321 -574 null null -687 null 175 null 543 -641 null 1 411 -5 -47 -612 null null null null null 432 null 81 null 112 840 -381 -176 -215 957 -212 -468 221 -13 400 760 null null -782 null -649 -514 -933 null null null null null null 213 -892 null -623 109 null null -489 815 -872 460 -755 992 292 610 215 -647 -99 -881 354 844 135 655 -683 821 -176 -340 852 null null 883 878 -783 -362 -689 622 null 73 null null 231 null 476 -226 -871 569 null null null null -291 -43 -938 null 87 86 -800 870 -540 870 -784 null 360 789 563 -314 369 -288 null 192 789 -563 948 594 -160 740 -167 null null -549 null -52 466 485 117 null null -868 -968 -742 156 null -50 -464 557 -757 415 825 null null null null null 456 -694 null null -282 314 571 220 812 -608 null null null null null null 686 804 -704 null null -525 null 765 -214 null 483 null -787 -707 null null 797 83 -98 null 753 -738 165 123 225 790 null -239 null -241 997 340 -823 -683 null -521 -216 667 661 -296 971 null 695 -795 null null 827 390 580 365 -618 -227 -236 -903 null null -322 557 null -48 753 725 283 null 559 null -731 -192 -863 186 null null -539 376 937 831 642 863 -544 -356 167 354 null 570 -704 -108 null 427 -804 null 456 -252 null null -525 -191 null null null null 452 null 978 null null null null null null -405 null null null null null -222 null null null null null 630 null 917 -614 -704 660 null null null 228 null null 434 977 null null -742 null null null null null null null null 816 null null null null null 795 -486 -641 676 -688 233 7 -628 196 850 165 -650 -700 265 -313 488 null 972 -575 297 253 -197 -29 667 -67 126 150 960 251 -729 -335 -358 -319 80 127 -472 -395 -183 533 -852 991 -634 137 462 null null null null 900 844 -864 -386 -640 -926 null -962 328 null null null -662 null null null 870 254 243 281 null null null 137 133 -866 null null null 879 null null -819 -305 null 765 -735 898 658 509 -145 null 616 758 108 null null 525 69 -954 null null 340 null 919 -562 null null null null null null null -171 null 461 null -643 null null 154 332 null 497 658 -214 188 -580 -955 null null null -262 null 796 -313 243 796 -504 -164 714 -235 270 -12 679 -288 980 -683 -952 -842 null null 389 368 558 null null -764 null 301 null null -252 -180 -883 null null -612 null null null null null null -589 775 -879 508 -601 586 475 402 -737 31 234 null null null -833 null -390 -262 780 -439 805 -607 -332 -696 null 599 -914 -941 null null null -393 -888 null 420 null -160 141 null null 764 -291 -445 -597 -896 540 -967 39 564 null -652 null 604 -46 null null null null null 437 450 466 934 null null null null 545 null null null null null 172 null null 298 -927 null null null null -893 null null null -561 208 239 -465 -256 null null null null -599 36 747 -997 -481 628 -924 32 660 null -764 -451 903 -783 -863 308 -582 null null 135 -816 -374 -355 null -694 null -71 -159 null null 67 null null null null null null null null null null -416 -704 -325 -241 null null 503 -623 null -505 null null null null null null 992 -11 -957 -249 null null null -402 null null 10 5 -463 134 -944 null null 335 981 679 441 -299 959 266 -787 null 551 null -792 null null -345 -786 8 -772 null 853 null 239 -772 -264 632 -84 654 994 355 -218 46 null null 348 166 -125 841 null null -742 null -657 -728 946 -553 -918 179 441 366 295 77 840 956 -259 null null -534 -60 285 -707 936 646 null -244 5 null 425 null -10 -30 768 null -536 null null null 641 -402 526 246 -546 -278 -838 -235 null 51 904 null -558 null null null null 880 734 null null null null null null null null null 437 null null null -441 null null null null null null null -928 981 null 370 452 590 -360 null null null null null 886 null null null null null null null null null null null null null -955 null null null null -348 null 823 -612 802 -547 -810 null null 331 58 696 -168 null 660 null -246 -734 -620 null -681 null -429 337 null null null null -719 926 307 861 729 935 700 -762 -913 null -228 null null null -733 null null null 224 578 null null null -81 null -694 null -703 null null null 0 null null null 144 -500 null null -327 null null -947 -965 null null null 593 -933 null 410 246 727 -994 -766 904 -541 -687 null -221 824 709 145 null 926 null -960 543 -794 -858 93 -824 null null -843 null 913 -763 null null null -167 null null null null -380 null 388 827 755 null -915 -356 643 713 null 499 -746 null 698 null null null null null -481 435 -4 null -632 -302 null 422 null null null null null -922 null 510 null 36 null null null null null null null -320 null -759 null null null -301 null null null null null 168 null null null null null null null null -18 925 -256 -102 null 447 -918 147 null null null null 79 null 936 null 634 266 -741 null null -286 null 520 null -809 3 662 null null -589 -962 207 335 null -713 null null -537 null null null null null -351 null null 244 null null null null -867 409 null null 852 null null -887 -256 98 -946 428 623 796 null null null null null 314 404 null 846 null null null null null 76 null null 232 598 null null null null null -92 null null null null null null null null 15 null null 879 394 897 668 null -306 -926 631 128 -604 921 -81 360 -955 689 -149 429 null -330 685 null null 777 319 503 140 -155 174 null -435 null null null 781 991 -184 536 null -477 -712 439 -45 -460 454 -429 -951 -690 -387 null 231 null -518 833 null -282 null -889 -352 null -598 994 679 82 null null -527 -456 104 -54 null -974 -871 935 -51 null null 967 null null null null null null -531 404 -630 936 469 2 null null -374 null null null null null 91 278 960 null 587 null null 173 -936 -680 574 523 null null null null -588 631 null null null null null null null 429 null null -883 null null null null null null null null null null null null null null null 763 null null 703 null null null null 120 399 null -198 -323 -437 null -929 null null -843 null null null null null -450 -735 445 null null 450 -258 579 739 null 46 -254 361 -5 null 581 -398 675 -271 354 202 null null null null null null null null null 806 null null null null null null null null null null 615 11 null null null -858 917 -39 874 274 null -802 513 -575 null 620 null 757 null null 213 -268 null null -130 739 253 -647 -169 null -719 null null null -329 20 null 961 null null -492 -847 112 339 -492 -52 728 -79 -63 561 null 115 770 -174 220 null null -911 545 null -76 -195 null null null -614 null null null null -837 744 788 399 -473 -148 500 null -779 -994 -731 722 616 -665 261 -449 -509 35 null 464 null null null null null null -196 null 813 -979 null null 828 402 791 -608 -678 92 null null 672 927 -525 -947 621 -564 629 515 null 368 571 146 651 -203 null null null null null 726 null null -819 null null null null 668 777 null 212 581 null null 986 null -541 null null -241 null 146 null -255 null -647 null null null null 462 null null null 168 29 null null null null -264 -631 null null null -171 7 507 null null 801 799 517 773 null -729 109 null null -877 null null null null null null null null -405 798 -61 null null -207 208 -269 null null 1000 null -393 null null null 958 -578 -342 621 null null null 846 null null 482 2 333 -128 563 750 964 null null null -307 -661 null 551 null null null null null null null null -786 null null -788 729 -475 -556 -460 null null null null null null -230 -774 -390 833 825 -739 null null null null 803 null null null 353 null -659 null null null -326 null null -110 173 -858 null -808 null null null null null -390 null null null -475 null null -293 -579 954 718 -53 null 262 null -193 -457 null null 4 -252 -45 null null null null null null null -183 null -531 null null 408 null null null null -711 -624 null null -87 -203 390 -818 null null null null null null null null null null null null null -888 null null null -347 958 666 983 null 765 null null 443 null null null null -242 null 548 null 650 null -370 null -565 -879 763 197 -565 -941 -566 117 -136 279 null -890 -890 377 553 186 -235 787 14 -76 -232 357 null null null -870 967 661 null null null null null null null null null null 44 null 240 300 841 334 -194 null 792 584 898 12 null null 446 -417 949 -659 -149 -955 -703 -133 null null null 298 null null -447 null null -403 -223 -173 648 -394 null 473 -581 null 891 -142 -328 885 -769 -476 950 null -1 -999 50 null null null -158 -748 -296 null null null null null 749 -674 null -407 null null -462 null -418 -272 -750 -596 null null 654 null null null null 432 286 620 25 null null null 816 350 -664 -450 834 171 867 844 -219 null null null 293 null null -688 null null -328 -577 969 null null 247 null null null null 610 null null null -220 -11 null -54 -654 null null null 559 816 null 713 null -367 -84 369 44 696 790 null 34 253 null 847 276 null null null null null null null null -767 -172 null 524 -711 131 62 888 null null null 536 995 null null null 304 null null null null null null -827 null -159 -158 null null -864 null null null -955 null null null null -956 null null null null -429 -461 null null null null null 670 null null null null null null null -79 null -746 null null null null null null 707 -416 null null 83 null -211 -190 null 911 null null null null 670 null null null 660 null null null 922 -510 null null -891 -346 650 null null null 288 null null null 612 null -536 833 null null null null -295 -144 -95 -829 null -96 null null null null null 988 null null null null null null null null -596 641 null null -760 null null null -849 null null -932 18 null -625 818 null null -117 -218 262 -820 null null null 807 null 234 null null null null 599 null null null 137 90 null 986 -498 -471 null null -677 null -125 null null 610 -407 null null null 2 null null null null null null null null -26 923 404 null null null -449 null null null null null null -773 null null null null null null null null null -582 701 null 688 null null null null -353 null -266 616 -152 -612 null null null null null 208 -313 -820 null 410 null -891 -691 null null -560 552 -228 -456 null null null 953 -766 811 -708 547 -93 null -196 null -663 null null null null null 127 349 null null null 55 -56 -683 338 95 -36 3 315 null -264 null null -585 -403 991 -511 null null null null -953 -940 -862 -8 614 -973 907 808 -44 null null null 938 -152 414 null -20 null null -859 null null null null null null -646 -790 -106 515 26 null 305 null 939 669 null null null null null null -157 334 null 762 -939 675 755 -652 -266 null -914 -485 -475 -285 null 743 null 420 null null null -153 888 -361 384 454 317 -161 185 -532 450 313 null null null 348 882 -672 null null -750 118 -592 -18 null 607 -50 null null null null null null null null 802 null null -549 null null -447 388 -911 null 758 632 -430 null 45 558 null 758 -883 null null null null -868 null 131 -961 -91 -169 null null null null null null -908 -537 null 429 319 null null null 832 377 null 419 -245 null 941 null 855 null null -826 -464 627 null null null null null null null null null null null null -159 -22 null 941 175 -642 null 679 -873 null 381 -253 648 944 -911 null null null 160 -504 null null null -39 -449 null 388 null null null null null null null null null null null -946 null null 943 null null 746 null -403 939 null null null null 801 null null 693 532 null null null null null null null null null null 234 null null null null null null null 708 null null null -782 null null null null null null 929 null 94 702 -552 -510 null null -152 -42 -797 null null null null null null null 738 null null null null null null null null null -728 505 753 null null 821 null -773 -224 245 214 187 null null null -220 -842 null -737 -195 909 null null -984 null 849 -110 null null null null null 672 null 390 null null 931 225 994 765 818 -229 null -844 -983 773 926 null -272 null 814 55 null -576 null null null 210 -247 757 -156 969 -887 -955 -671 null null null -485 705 -833 514 null -615 null 404 -963 null null -222 null null null null null null null null null null null null null null 918 null null null null 200 -347 null null 473 null null -112 null null null null -341 -142 42 -389 null null null null null null null null null null null null null null 457 null null null null null -496 null null null null -777 null null null -247 null null null null null null 231 null 893 -482 null null 307 770 728 91 544 null 298 996 null 121 -822 null null null null null 515 122 729 null null -835 null null null null null null null null null null null null null null null -196 -948 null null null null 152 null null -463 null -346 45 null 512 null null 832 149 null -973 416 null -468 null null null 230 -974 66 -612 null null null null null null -771 null null -874 -821 null null null 863 null null null null null null null -402 null -33 null null -411 -444 null null null null 930 null 57 null null 124 null null null null null -748 null null null -45 null null -587 null null null null null null null null null 303 null null null null -191 null null null null -917 null null null null null 33 null null null null null null -485 -771 null null 977 null null 179 null null null null null null null null -391 null null -64 null null null null -667 848 332 524 801 null 722 null null 663 null null null null -416 null null null null null 760 -390 null 92 null null null null null null -235 735 988 -524 null null -498 462 -267 null 950 -203 -102 -209 -635 -912 -422 null -798 null null null null null null null null 101 -787 -752 -142 949 -125 72 966 null null -850 -544 null -459 -748 777 -374 null 778 null null null 528 null null null null null null null null null null null null null 718 255 null null null null null null 457 -53 null -520 null 233 null null 919 null -781 null null -38 -15 null null null null 296 252 -342 null null null null 17 null null -431 534 447 null -708 881 null null null null 68 -752 -895 null 80 null null null null 980 771 154 null null null -523 -108 null null 538 null -22 null null -494 -162 null null null null null null -223 null null null null -246 -218 7 null null null -408 null null null null null null null null null null null null 956 539 null null 0 null null null -101 -850 null null null null -241 861 null null 955 null null null null null null null null null null -717 null null null null 26 558 null -56 -978 null null null -643 null null null -290 null 558 -385 -350 98 -395 null -320 119 null null -914 659 536 146 null null 271 null -774 -36 null null -238 null 804 -835 null null -319 null null null 195 null null -125 null null -269 319 -305 null null null null null null null null null 721 664 405 null null -811 773 null null 318 null null -108 -390 null null null null null 780 null null null null null null -932 11 null -276 null 410 null null -123 null 646 644 null null null null null null null -889 null null null -551 null 913 null -846 -956 907 null null 989 null null null null null null null null null null null null 575 null null 503 null null null -218 null null null null null -963 246 40 -673 332 null null null null null 149 null null null null null null null null null null null null null null null null null null -261 null null null null -759 null null 414 null null null null 103 -591 229 -262 null null null null null null null 115 null -861 -961 643 444 null null null 247 null null -394 null null 40 null 921 -790 -717 -449 -885 null null null 888 null 702 263 -545 -194 755 17 null -840 null null 534 null -995 null -781 null null -519 303 null null null null null -180 878 -738 null null -771 null null -57 null null null -330 null null null null null null null null null null null null 931 null -193 null 174 null 855 null null null null null null -756 578 null null null 398 -314 null null null null null -714 10 null null 744 null null -75 -152 null null null null null null null -908 830 null 898 null null null 734 -523 -786 null -835 null null null 385 null 827 null null null -166 547 null null null -963 null null null null -636 null null null -884 null -923 null null null null null 237 -672 null null null null 817 null null null null 773 -914 null 348 null null null null null -421 794 220 null null null null null null null null null null null null null 674 null -962 697 -487 -29 657 null null null null -271 -981 610 -762 null null -802 528 null null null -454 null null null null 312 null null null null null null null null 839 null null null null null null null null null null 410 -909 28 440 -123 276 365 -680 -630 -726 null -866 null -255 922 null -326 null 556 null null null -782 -796 null -428 null null null null null null null null null null null null null null null null null 632 null null null null null null null null 467 -783 null null null null null -756 null null null 80 104 623 null null null null null null null null 604 null -252 -982 null null null null -987 21 null null null null null null 127 859 308 null null -461 null -598 null null null 127"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n5 3 8 1 4 7 9"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3\n0 0 0"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "38\n757 249 -395 178 -444 268 -180 -290 491 null -347 -65 null null -42 -341 null null null null 487 -204 null 664 513 null null null null null -552 -527 null null null null null -439"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "15\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "135\n819 -418 -148 -707 -628 794 -879 519 91 770 682 null 118 -124 478 -871 357 -402 511 null -394 null null -881 -450 null 967 -410 754 null null 994 -600 467 null -768 955 null null -789 -725 998 null 731 328 null -858 -294 null -445 208 -39 -566 null null null -861 null null 370 -366 null 354 921 null null 869 null 687 null -405 -707 677 null -716 null null -856 null null null -765 -660 null null 975 null null 60 null 219 null null 795 null null null 527 null 170 null null null null null null null null null null null 319 null null null null null 801 null null null 835 -108 null -319 null -886 -670 null null null null -103 191 418"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "4\n1 null 2 3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "problem_key": "Binary Tree Preorder Traversal.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "3\n1 null 2"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "0\n"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n1"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "3\n1 2 3"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n0"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n-100"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n100"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "8\n5 4 null 3 null 2 null 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "9\n1 null 2 null 3 null 4 null 5"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n1 2 3 4 5 null 6"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "94\n-40 51 82 39 -90 9 1 -67 -97 -23 52 null null null null -6 48 71 -84 99 null 84 null 54 60 -84 55 null 98 -60 51 null -93 -1 null null 21 null null null null -97 -41 null null null 94 null null -32 null null null null null 20 null -51 -1 null null null 21 null -34 83 null null 89 null null 41 null 20 33 null null null null 38 63 null null 40 null -62 null 21 null -41 -62 1 null 62"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "98\n50 49 null 48 null 47 null 46 null 45 null 44 null 43 null 42 null 41 null 40 null 39 null 38 null 37 null 36 null 35 null 34 null 33 null 32 null 31 null 30 null 29 null 28 null 27 null 26 null 25 null 24 null 23 null 22 null 21 null 20 null 19 null 18 null 17 null 16 null 15 null 14 null 13 null 12 null 11 null 10 null 9 null 8 null 7 null 6 null 5 null 4 null 3 null 2 null 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "99\n1 null 2 null 3 null 4 null 5 null 6 null 7 null 8 null 9 null 10 null 11 null 12 null 13 null 14 null 15 null 16 null 17 null 18 null 19 null 20 null 21 null 22 null 23 null 24 null 25 null 26 null 27 null 28 null 29 null 30 null 31 null 32 null 33 null 34 null 35 null 36 null 37 null 38 null 39 null 40 null 41 null 42 null 43 null 44 null 45 null 46 null 47 null 48 null 49 null 50"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "199\n-40 -23 95 null -74 -85 30 84 -61 -44 64 -51 -18 1 22 -77 null 33 99 -34 -99 5 -89 62 null null null null null -83 -26 37 null -56 -33 -31 -24 -26 46 8 -59 -80 32 42 null -95 2 null null null -8 null -73 -46 -94 -51 71 null null null null 80 95 53 null null -41 -89 60 36 91 -50 null null null null 40 null -30 null null null null null null null -58 -1 null -21 null null null null -27 -22 -34 18 null -29 null 65 -13 null 50 null -18 null null null null -21 -78 29 -37 null null 10 15 null null null null null null null null 20 79 -63 -83 null null null null -26 87 55 null null null -55 21 null null null null null null null null 72 -50 5 61 60 null null -5 -14 null null -37 -29 null null null null null null -49 null 12 null null null null null null null null -78 40 null 62 null -30 null null null null null null -53 -9 null null null 11"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n5 3 8 1 4 7 9"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3\n0 0 0"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "39\n59 -35 -37 89 89 null -3 -9 null null 66 null null null 76 35 null null null -93 -37 19 98 66 -60 null null null null null -87 -72 null null null null -5 null 20"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "15\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "137\n46 -80 -50 24 -8 79 10 95 20 4 -76 62 -93 null -23 null -34 94 86 -36 null null 93 null -26 62 54 null null -91 50 88 86 null -33 13 79 null null -76 50 -8 -38 null null -100 -63 null null -5 -31 5 74 69 -15 null null null null -89 null -49 28 null null null null null null null 69 -19 97 25 -50 null 37 -76 null 56 null -77 null null null 67 65 null null null null null null -95 null null null null null null 38 -51 null 75 8 null null null -8 78 null null null null null null 44 -78 null null null 24 47 null null null 41 null null null -51 null null null 79 null 31"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "4\n1 null 2 3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}

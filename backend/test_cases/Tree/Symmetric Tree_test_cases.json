@@ -1,0 +1,145 @@
+{
+  "problem_key": "Symmetric Tree.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "4\n7 2 3 4"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n99"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n1"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "3\n1 2 3"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n0"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n-100"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n100"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "8\n5 4 null 3 null 2 null 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "9\n1 null 2 null 3 null 4 null 5"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n1 2 3 4 5 null 6"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "98\n-92 22 -36 -38 0 -56 -1 7 -87 null -88 -32 null 35 -75 -30 34 null 59 null null 87 null 88 null -26 80 -55 -54 54 90 null null -67 null 70 83 -36 null null null null null null -76 null null null 97 null 2 9 81 -13 null 22 -15 null null null 94 null null -52 14 null -88 -77 -65 -20 -25 null -53 null null null null null 23 null null null null null null null null null null 24 null null -34 -39 null null null 29"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "98\n50 49 null 48 null 47 null 46 null 45 null 44 null 43 null 42 null 41 null 40 null 39 null 38 null 37 null 36 null 35 null 34 null 33 null 32 null 31 null 30 null 29 null 28 null 27 null 26 null 25 null 24 null 23 null 22 null 21 null 20 null 19 null 18 null 17 null 16 null 15 null 14 null 13 null 12 null 11 null 10 null 9 null 8 null 7 null 6 null 5 null 4 null 3 null 2 null 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "99\n1 null 2 null 3 null 4 null 5 null 6 null 7 null 8 null 9 null 10 null 11 null 12 null 13 null 14 null 15 null 16 null 17 null 18 null 19 null 20 null 21 null 22 null 23 null 24 null 25 null 26 null 27 null 28 null 29 null 30 null 31 null 32 null 33 null 34 null 35 null 36 null 37 null 38 null 39 null 40 null 41 null 42 null 43 null 44 null 45 null 46 null 47 null 48 null 49 null 50"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1999\n-29 -43 -7 -11 6 -30 -20 -29 -66 37 65 24 59 88 -36 -15 -13 -23 -34 null -5 -52 -63 -45 8 43 -69 -53 -11 -2 64 null 77 85 26 66 -67 null 59 -69 -60 -3 48 99 90 62 64 98 -89 8 92 -40 70 -92 -62 -10 44 -36 25 94 -31 80 -76 98 -10 -1 -27 -16 -49 -23 24 -96 89 -66 12 -44 7 -6 -33 -85 -82 41 -11 -15 35 2 49 87 83 -94 66 15 93 -33 -11 -50 94 null null -32 86 -89 -92 16 21 38 -45 -81 35 -57 -84 10 -50 -5 -98 3 49 -63 31 null null 91 null -27 19 null 90 -78 29 21 null null -37 -81 -10 -8 42 -69 17 null 66 -81 null 48 7 null -87 22 -88 -59 -80 -26 80 93 54 -78 null -10 18 -44 40 null null 4 null 89 31 null null 4 30 36 -24 87 -14 -31 57 null null -2 -42 61 24 78 null 82 null -81 null -11 -24 -58 54 30 -92 -47 23 77 77 -59 77 35 59 -64 68 49 -51 14 6 72 -21 -32 null -54 -78 -10 85 -42 63 6 45 -74 22 -56 94 -21 40 null null 67 56 null null 53 8 -64 -25 null 41 null 20 null null null null null null null -67 41 null 44 -42 null null -34 -16 null null null -83 35 -60 -93 null -71 62 null 79 17 -5 50 -87 null null 74 69 25 39 -90 4 84 27 -38 80 96 -50 22 29 -10 null 54 -38 null null -64 null null -80 -70 -98 null 90 null null null -82 null 5 22 null null null 96 null -80 27 95 -23 12 -9 null -78 null null null -59 null null null null null 67 -24 null null -25 -46 3 null 88 52 29 18 null 75 84 62 47 -39 25 null null -26 -29 75 54 82 -64 -68 68 null null 31 -23 -61 -57 40 -48 59 -77 -56 -6 29 null 93 74 -89 -40 6 54 null null 84 -8 null 82 37 0 -30 99 35 null null -60 null -64 46 -34 null null null null 68 19 null null -92 null -84 -30 null 31 null null -44 96 null null 34 -81 null null 3 null null null null null null null null null 75 3 -31 0 null null -27 null -84 null -92 null null -100 null 43 null null null -85 -96 -21 -33 -89 -23 32 -8 null null null 95 null -30 null -90 -79 null -23 -50 -57 -2 -22 -55 -27 -57 -2 17 -20 -52 -45 -55 -87 null -10 62 7 null 17 42 -59 null null -75 100 35 35 null null -22 null 36 null 14 -49 2 -28 null null 10 23 null null null null null null null 86 null null null null -21 96 73 78 null null 68 91 17 99 null null 82 -32 -100 -66 24 -61 -54 null -39 -66 48 88 null null -15 -49 -55 -75 62 -11 -73 -59 null 93 null -17 null -44 -47 -64 null null 44 -8 -15 -8 14 null null null 82 3 -31 null null 79 null 2 53 null null -94 -20 37 7 -96 -83 -78 null null -5 58 -21 -56 -55 -75 -87 null 97 65 36 55 66 -30 64 24 31 null 88 null null null 82 -79 -3 81 4 -13 47 null null null -48 null 13 -19 -4 21 null null -34 65 -91 -76 -46 -98 null null null null 68 8 -51 null null null null null null 63 null -9 80 null null null 27 null null null 89 null null null -46 23 -44 null null null 17 14 null null 84 41 57 -77 73 null null 2 -68 27 -29 -87 40 -6 null null 64 null 79 -2 null 95 null null 33 56 null 93 5 -48 null null -50 22 null 45 null -15 24 null -10 80 null null 62 null -10 64 null 44 null null -98 66 null null null null null 46 null null null null 89 -69 87 null null null null 22 null -19 null 59 null 29 null null -100 null 43 -51 67 null 56 65 null -49 null null null null 5 null -68 -56 -63 null null null null null null -7 -66 -79 -57 -57 null 22 null null null null null null -77 null null null null 67 88 11 44 90 null -100 null null 83 6 67 null -39 -39 -18 85 null -77 55 null -31 -54 -34 -98 97 29 null -44 91 null -95 null null -86 51 1 null null 21 null 79 null null -26 75 22 -92 null 71 77 65 null null -48 46 -71 null 82 null 46 52 -95 -79 85 null null 76 null -76 -59 -45 61 64 -37 -27 22 67 -23 61 -44 -29 -40 -49 63 null null null 37 null null null null 48 null null null null null null null null null 8 -91 -25 null null null -86 null 32 null null null null -98 null -29 null null -18 null null -66 null null null -60 null -76 null -25 null null null null null null null null 17 null null null null 55 null null -88 77 21 null null null null null -69 -68 null null null -22 null -95 null null null -47 -62 null -68 null -61 -78 null null 20 null 92 null null null null null null null null null -12 -24 73 null null null -2 -48 null null -88 null null null null null null null null null 74 null -45 null null 69 null 55 -70 null null null null null null null null null -73 null 7 null 53 null null null null -2 null 97 8 35 null -96 49 25 76 null 11 null null -25 -33 -82 null -90 89 null -97 70 null null -18 73 69 98 null null null -91 40 -87 16 79 -66 null null null 68 null 3 50 -11 null 16 -65 null 79 47 35 -47 -87 58 null 64 null null 79 -6 null null -62 20 -79 -56 null 13 -12 64 null -12 -64 null 59 55 3 null null null null null null null null null null null -79 null null 68 null null null null null null -86 -52 -50 45 -15 null null -9 null null null null null -4 53 null -49 33 -21 null null null null null -62 null null -51 null -88 null -34 36 -24 null -5 -63 null 78 null -56 -72 36 22 8 null -35 null null null 97 null 63 -88 52 null -64 null null null 77 null null null -34 null null -14 null null null null null null null null null null 11 null 50 22 null 40 null 50 null null -95 null null null null null null -52 null null null null null null null null null 30 null null 41 null null -79 52 99 29 null null -86 36 70 null null null null null null -4 null null 96 null null null null null null null null null null -73 null null null 39 null null 63 null -30 -70 97 53 null null null 4 23 -1 null null 81 null null null null null null -16 -51 null -74 null 11 -12 -85 null -77 null null -3 -32 93 -52 -29 null null -62 16 -68 -86 29 null -75 -63 -28 -33 null null null null null null null null null -45 null null null 39 -96 4 51 null null null 49 null 92 33 -24 22 null null null null null null -30 71 null -67 null null null null null null null null null null null null null null null 28 -45 null null -56 null null null null null null 52 83 null 69 -86 null null 48 null null null null null 85 -22 null null null null null 67 -73 -47 30 null null 76 7 21 -58 -85 null -62 null -31 13 -42 -90 21 7 null 54 null null null null null -1 -30 null -74 null null null null null null null null null null 61 null 84 -12 null null null null null null 21 null null null null null 93 77 null null null null null null null 55 51 null null 61 57 65 -92 null 68 null null null null null -75 92 null null null null 36 85 -57 null null 12 null null 39 -91 null -69 -88 -90 null null -55 null 89 null null null null null null null null null null 27 -5 null null null -97 null -60 null 20 null -46 -72 38 null null -49 null null null 95 null 34 -56 -19 12 -75 49 null null null null null -51 null -62 null 72 11 -2 39 null -95 null -19 null null null 16 -84 null -56 null null null null null null null null null null null null -79 -55 null null -92 null null -33 null null null null null null null null 57 -27 6 -31 null null null 42 59 97 -6 null null null 97 null -39 95 -4 -27 null null -2 -74 -100 47 6 86 null -59 -70 null null null null -73 null null -24 null -79 null null null null null null null -26 64 -11 null null null null null null null null null null null null null null null 76 -59 93 null null null null null null null -61 null null null null null null 69 null null null null 63 null null null -1 null null null -92 49 null null 68 35 null null null null 22 -57 null null null 13 38 -50 null 57 83 null -41 null null -49 null null null null null null null null null 42 null null null null null null null null null null null null null null null null null null null null null -59 -96 -84 null 31 null null 94 null null null -50 null 76 null null 13 -19 null null null null null null null -33 null 33 null null -24 -76 -74 null null null null null null null null null null null null null -33 null null 64 -13 -42 95 null -99 null 30 74 null -86 null null null -33 null 99 1 null 81 null null null 25 null -43 null null null null null null 19 1 null -67 null null null null null 97 89 97 null null null -42 null null null null null null null null null null null -75 null null -90 null null null 58 -68 48 51 null null null null -45 null null null -25 null null null null -33 null null null -74 -92 63 83 null null null -82 null null null null null null null null null null null -89 null null null null null null -4 null 63 null null -80 null 93 66 -89 97 77 12 null null null null 76 55 null null null null null null -3 null null null null null null null null null null null 90 null -79 null null null 25 null null null null null null null null null null null null null null null 28 -76 null null 37 33 null null null -29"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n5 3 8 1 4 7 9"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3\n0 0 0"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "38\n85 -73 43 -73 -17 -34 null 61 50 null null null -43 22 77 58 10 null null -47 null 17 -12 null null 20 -13 null null -25 null null null null null null null -62"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "15\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "139\n-78 -33 58 16 -43 -27 -4 null -26 27 60 -13 -71 null 68 null null null -63 -92 30 null 56 -68 89 null null 62 -30 -8 33 -54 -12 -20 76 null 60 null 62 90 72 null 78 51 null -24 -50 -81 -48 null 60 97 null -37 15 -64 null null 82 43 89 null null null null null null 76 28 null null 72 70 null null null -58 null null null 15 null null null 78 -94 null null -100 -52 -28 null null null null null null 50 -80 null -30 null null null null null -50 null null -89 null -70 null null null -98 -56 7 91 null -100 null null -47 null null null null null null -38 null null null null null null null -67"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "4\n1 null 2 3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}

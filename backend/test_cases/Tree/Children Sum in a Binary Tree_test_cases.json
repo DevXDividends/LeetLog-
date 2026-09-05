@@ -1,0 +1,145 @@
+{
+  "problem_key": "Children Sum in a Binary Tree.cpp",
+  "test_cases": [
+    {
+      "input": {
+        "raw": "3\n10 5 5"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "3\n10 5 4"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n5"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "5\n9 4 5 1 3"
+      },
+      "expected_output": null,
+      "is_hidden": false
+    },
+    {
+      "input": {
+        "raw": "1\n1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n100000"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "33\n100 98 2 null 98 2 null 71 27 null 2 27 44 15 12 null null 27 null 36 8 15 null null null 13 14 20 16 null null 1 14"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3\n10 5 3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "5\n20 8 12 3 5"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "5\n20 8 11 3 5"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "1\n18"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "159\n389 175 214 23 152 null 214 null 23 121 31 107 107 null 23 105 16 null 31 6 101 26 81 null 23 83 22 null null 4 27 null null 9 92 26 null 81 null 3 20 35 48 22 null null null 7 20 null null 81 11 20 6 29 52 3 null null null 26 9 44 4 1 21 7 null null null null 81 null null null null 6 null null 29 null 52 null null 15 11 null null 20 24 null null null null 21 null null null 45 36 null null 20 9 14 38 15 null null null 12 8 4 20 21 null 27 18 19 17 7 13 null null null 14 18 20 15 null null null 3 5 null null 4 16 7 14 13 14 null 18 4 15 null 17 null 7 13 null 6 8 16 2 18 2"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3\n6 2 3"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2\n1 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3\n1 null 1"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "2\n1 2"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "11\n28 12 16 4 8 null null 4 null null 8"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "3\n20 9 10"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n50 20 30 10 10 15 15"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    },
+    {
+      "input": {
+        "raw": "7\n50 20 30 10 10 15 14"
+      },
+      "expected_output": null,
+      "is_hidden": true
+    }
+  ]
+}
