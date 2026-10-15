@@ -5,140 +5,140 @@
       "input": {
         "raw": "3\n1 0 1"
       },
-      "expected_output": null,
+      "expected_output": "5",
       "is_hidden": false
     },
     {
       "input": {
         "raw": "1\n0"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": false
     },
     {
       "input": {
         "raw": "1\n1"
       },
-      "expected_output": null,
+      "expected_output": "1",
       "is_hidden": false
     },
     {
       "input": {
         "raw": "4\n1 1 1 1"
       },
-      "expected_output": null,
+      "expected_output": "15",
       "is_hidden": false
     },
     {
       "input": {
         "raw": "5\n0 0 0 0 0"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "5\n1 1 1 1 1"
       },
-      "expected_output": null,
+      "expected_output": "31",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "30\n0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "30\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
       },
-      "expected_output": null,
+      "expected_output": "1073741823",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "30\n1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
       },
-      "expected_output": null,
+      "expected_output": "536870912",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "30\n1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0"
       },
-      "expected_output": null,
+      "expected_output": "715827882",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "4\n1 0 1 0"
       },
-      "expected_output": null,
+      "expected_output": "10",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "2\n1 0"
       },
-      "expected_output": null,
+      "expected_output": "2",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "2\n0 1"
       },
-      "expected_output": null,
+      "expected_output": "1",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "4\n1 1 0 0"
       },
-      "expected_output": null,
+      "expected_output": "12",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "3\n0 0 1"
       },
-      "expected_output": null,
+      "expected_output": "1",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "15\n0 0 1 1 1 1 1 0 0 1 1 0 1 0 1"
       },
-      "expected_output": null,
+      "expected_output": "7989",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "30\n0 1 1 0 1 0 1 0 1 0 1 1 1 1 1 0 0 1 1 0 0 0 0 1 1 0 1 1 1 1"
       },
-      "expected_output": null,
+      "expected_output": "447715439",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "10\n1 0 0 0 0 0 0 0 0 0"
       },
-      "expected_output": null,
+      "expected_output": "512",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "10\n0 1 1 1 1 1 1 1 1 1"
       },
-      "expected_output": null,
+      "expected_output": "511",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "29\n1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1"
       },
-      "expected_output": null,
+      "expected_output": "536870911",
       "is_hidden": true
     }
   ]
