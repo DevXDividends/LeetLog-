@@ -1,8 +1,9 @@
-streamlit 
-PyGithub 
+streamlit
+PyGithub
 ipykernel
 jupyter
 python-dotenv
-fastapi 
+fastapi
 uvicorn
 psycopg[binary]
+codeforge-rce @ https://github.com/DevXDividends/CodeForge-RCE/releases/download/v0.2.0/codeforge_rce-0.2.0-py3-none-any.whl
