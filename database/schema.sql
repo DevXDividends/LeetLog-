@@ -54,13 +54,11 @@ CREATE TABLE TestCases (
     CONSTRAINT fk_testcase_problem
         FOREIGN KEY (problem_id)
         REFERENCES Problems(id)
-        ON DELETE CASCADE,
-
-    CONSTRAINT uq_testcase
-        UNIQUE (
-            problem_id,
-            input,
-            expected_output,
-            is_hidden
-        )
+        ON DELETE CASCADE
 );
+
+-- NOTE: a plain UNIQUE(problem_id, input, expected_output, is_hidden) fails because
+-- btree index rows cannot exceed ~2.7 KB, and our inputs/outputs are often MBs.
+-- So we index only a short md5 hash of the big JSONB columns instead.
+CREATE UNIQUE INDEX uq_testcase_hash
+    ON TestCases (problem_id, md5(input::text), md5(expected_output::text), is_hidden);
