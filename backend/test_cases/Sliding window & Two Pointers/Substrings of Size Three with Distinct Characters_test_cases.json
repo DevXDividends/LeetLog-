@@ -5,140 +5,140 @@
       "input": {
         "raw": "xyzzaz"
       },
-      "expected_output": null,
+      "expected_output": "1",
       "is_hidden": false
     },
     {
       "input": {
         "raw": "aababcabc"
       },
-      "expected_output": null,
+      "expected_output": "4",
       "is_hidden": false
     },
     {
       "input": {
         "raw": "ab"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": false
     },
     {
       "input": {
         "raw": "abc"
       },
-      "expected_output": null,
+      "expected_output": "1",
       "is_hidden": false
     },
     {
       "input": {
         "raw": "a"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "aa"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "aaa"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "aab"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "xyz"
       },
-      "expected_output": null,
+      "expected_output": "1",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "aaaaaaaaaaaaaaaaaaaa"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "abcdefghij"
       },
-      "expected_output": null,
+      "expected_output": "8",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuv"
       },
-      "expected_output": null,
+      "expected_output": "98",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "suvpcyzmpwfhzqufvpqaggkyjwohgvyofcjdxqkvhzmuddkdzkjqmvvdjlyqzwnsinwybdisiaemyjgazjfeqxijrysssohhtrcp"
       },
-      "expected_output": null,
+      "expected_output": "85",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "abababababababababab"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "aabcaabcaa"
       },
-      "expected_output": null,
+      "expected_output": "4",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "abababababababababababababababababababababababababababababababababababababababababababababababababab"
       },
-      "expected_output": null,
+      "expected_output": "0",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "abcaaaaaaaaaaaaaaaaaaaa"
       },
-      "expected_output": null,
+      "expected_output": "2",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "aaaaaaaaaaaaaaaaaaaaabc"
       },
-      "expected_output": null,
+      "expected_output": "1",
       "is_hidden": true
     },
     {
       "input": {
         "raw": "gvpcbptljzvdqhsgnvekwaxbddematuryrvduugdvsifyomsvb"
       },
-      "expected_output": null,
+      "expected_output": "43",
       "is_hidden": true
     }
   ]
