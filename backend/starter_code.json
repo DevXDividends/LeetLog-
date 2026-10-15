@@ -47,7 +47,7 @@
   "First-Bad-Version.cpp": {
     "language": "cpp",
     "template_code": "class Solution {\npublic:\n    int firstBadVersion(int n) {\n        \n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint main() {\n    int n;\n    cin >> n;\n    \n    Solution obj;\n    auto ans = obj.firstBadVersion(n);\n    cout << ans;\n}"
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nint bad;\nbool isBadVersion(int version) {\n    return version >= bad;\n}\n\nint main() {\n    int n;\n    cin >> n;\n    cin >> bad;\n\n    Solution obj;\n    auto ans = obj.firstBadVersion(n);\n    cout << ans;\n}\n"
   },
   "H-Index II.cpp": {
     "language": "cpp",
@@ -252,7 +252,7 @@
   "Remove Nth Node From End of List.cpp": {
     "language": "cpp",
     "template_code": "class Solution {\npublic:\n    ListNode* removeNthFromEnd(ListNode* head, int n) {\n\n    }\n};",
-    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nstruct ListNode { int val; ListNode *next; ListNode(int x):val(x),next(nullptr){} };\nListNode* buildList(vector<int>& vals){ ListNode dummy(0); ListNode* t=&dummy; for(int v:vals){t->next=new ListNode(v);t=t->next;} return dummy.next; }\nvoid printList(ListNode* h){ while(h){cout<<h->val; if(h->next)cout<<\" \"; h=h->next;} }\n\nint main() {\n    int len; cin >> len;\n    vector<int> vals(len);\n    for(int i=0;i<len;i++) cin >> vals[i];\n    int n; cin >> n;\n    ListNode* head = buildList(vals);\n    Solution obj;\n    auto ans = obj.removeNthFromEnd(head, n);\n    printList(ans);\n}"
+    "wrapper_main": "#include <bits/stdc++.h>\nusing namespace std;\n\nstruct ListNode {\n    int val;\n    ListNode *next;\n    ListNode() : val(0), next(nullptr) {}\n    ListNode(int x) : val(x), next(nullptr) {}\n    ListNode(int x, ListNode *next) : val(x), next(next) {}\n};\nListNode* buildList(vector<int>& vals){ ListNode dummy(0); ListNode* t=&dummy; for(int v:vals){t->next=new ListNode(v);t=t->next;} return dummy.next; }\nvoid printList(ListNode* h){ while(h){cout<<h->val; if(h->next)cout<<\" \"; h=h->next;} }\n\nint main() {\n    int len; cin >> len;\n    vector<int> vals(len);\n    for(int i=0;i<len;i++) cin >> vals[i];\n    int n; cin >> n;\n    ListNode* head = buildList(vals);\n    Solution obj;\n    auto ans = obj.removeNthFromEnd(head, n);\n    printList(ans);\n}\n"
   },
   "Remove every k'th node.cpp": {
     "language": "cpp",
